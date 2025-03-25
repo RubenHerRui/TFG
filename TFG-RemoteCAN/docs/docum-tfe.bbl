@@ -1,0 +1,862 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global/global}
+    \entry{association20:_public_americ_psych_assoc}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b29c48e2adfa8813d0821cd69be08ecb}{%
+           family={{American Psychological Association}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {Washington, D.C}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{fullhash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{fullhashraw}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{bibnamehash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{authorbibnamehash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{authornamehash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{authorfullhash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{authorfullhashraw}{b29c48e2adfa8813d0821cd69be08ecb}
+      \field{labelalpha}{APA20}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Publication Manual of the American Psychological Association, Seventh Edition is the official source for APA Style. With millions of copies sold worldwide in multiple languages, it is the style manual of choice for writers, researchers, editors, students, and educators in the social and behavioral sciences, natural sciences, nursing, communications, education, business, engineering, and other fields. Known for its authoritative, easy-to-use reference and citation system, the Publication Manual also offers guidance on choosing the headings, tables, figures, language, and tone that will result in powerful, concise, and elegant scholarly communication. It guides users through the scholarly writing process-from the ethics of authorship to reporting research through publication. The seventh edition is an indispensable resource for students and professionals to achieve excellence inwriting and make a impact with their work}
+      \field{edition}{Seventh edition}
+      \field{isbn}{1433832151}
+      \field{label}{APA}
+      \field{title}{Publication manual of the American Psychological Association: the official guide to APA style}
+      \field{year}{2020}
+      \keyw{American Psychological Association}
+    \endentry
+    \entry{bringhurst04:_elemen_typog_style}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=26e95fb42484f0ba33bccaf28955982e}{%
+           family={Bringhurst},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {WA, USA}%
+      }
+      \list{publisher}{1}{%
+        {Hartley \& Marks}%
+      }
+      \strng{namehash}{26e95fb42484f0ba33bccaf28955982e}
+      \strng{fullhash}{26e95fb42484f0ba33bccaf28955982e}
+      \strng{fullhashraw}{26e95fb42484f0ba33bccaf28955982e}
+      \strng{bibnamehash}{26e95fb42484f0ba33bccaf28955982e}
+      \strng{authorbibnamehash}{26e95fb42484f0ba33bccaf28955982e}
+      \strng{authornamehash}{26e95fb42484f0ba33bccaf28955982e}
+      \strng{authorfullhash}{26e95fb42484f0ba33bccaf28955982e}
+      \strng{authorfullhashraw}{26e95fb42484f0ba33bccaf28955982e}
+      \field{labelalpha}{Bri04}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{isbn}{0881792063}
+      \field{pagetotal}{382}
+      \field{title}{The Elements of Typographic Style}
+      \field{year}{2004}
+    \endentry
+    \entry{cassany95:_la_cuina}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=0c7f32d6dde559deb78002ac9775617b}{%
+           family={Cassany},
+           familyi={C\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {catalan}%
+      }
+      \list{location}{1}{%
+        {Barcelona}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Empúries}%
+      }
+      \strng{namehash}{0c7f32d6dde559deb78002ac9775617b}
+      \strng{fullhash}{0c7f32d6dde559deb78002ac9775617b}
+      \strng{fullhashraw}{0c7f32d6dde559deb78002ac9775617b}
+      \strng{bibnamehash}{0c7f32d6dde559deb78002ac9775617b}
+      \strng{authorbibnamehash}{0c7f32d6dde559deb78002ac9775617b}
+      \strng{authornamehash}{0c7f32d6dde559deb78002ac9775617b}
+      \strng{authorfullhash}{0c7f32d6dde559deb78002ac9775617b}
+      \strng{authorfullhashraw}{0c7f32d6dde559deb78002ac9775617b}
+      \field{labelalpha}{Cas95}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{isbn}{8475963994}
+      \field{pagetotal}{210}
+      \field{series}{Les Naus d'Empúries}
+      \field{title}{La Cuina de l'Escriptura}
+      \field{year}{1995}
+    \endentry
+    \entry{cc22:_creat_comm_web}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=42cef1da263e6f8e017a4942c4a82bbb}{%
+           family={{Creative Commons}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{organization}{1}{%
+        {Creative Commons Corporation}%
+      }
+      \strng{namehash}{42cef1da263e6f8e017a4942c4a82bbb}
+      \strng{fullhash}{42cef1da263e6f8e017a4942c4a82bbb}
+      \strng{fullhashraw}{42cef1da263e6f8e017a4942c4a82bbb}
+      \strng{bibnamehash}{42cef1da263e6f8e017a4942c4a82bbb}
+      \strng{authorbibnamehash}{42cef1da263e6f8e017a4942c4a82bbb}
+      \strng{authornamehash}{42cef1da263e6f8e017a4942c4a82bbb}
+      \strng{authorfullhash}{42cef1da263e6f8e017a4942c4a82bbb}
+      \strng{authorfullhashraw}{42cef1da263e6f8e017a4942c4a82bbb}
+      \field{labelalpha}{CC22}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{label}{CC}
+      \field{title}{Creative Commons}
+      \field{urlday}{27}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://creativecommons.org
+      \endverb
+      \verb{url}
+      \verb http://creativecommons.org
+      \endverb
+    \endentry
+    \entry{dominik09:_reftex_user_manual}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=795225af1a453faf8f69582330d3cbfc}{%
+           family={Dominik},
+           familyi={D\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{organization}{1}{%
+        {Free Software Foundation}%
+      }
+      \strng{namehash}{795225af1a453faf8f69582330d3cbfc}
+      \strng{fullhash}{795225af1a453faf8f69582330d3cbfc}
+      \strng{fullhashraw}{795225af1a453faf8f69582330d3cbfc}
+      \strng{bibnamehash}{795225af1a453faf8f69582330d3cbfc}
+      \strng{authorbibnamehash}{795225af1a453faf8f69582330d3cbfc}
+      \strng{authornamehash}{795225af1a453faf8f69582330d3cbfc}
+      \strng{authorfullhash}{795225af1a453faf8f69582330d3cbfc}
+      \strng{authorfullhashraw}{795225af1a453faf8f69582330d3cbfc}
+      \field{labelalpha}{Dom09}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{pagetotal}{75}
+      \field{title}{Ref\TeX{} User Manual}
+      \field{urlday}{29}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{version}{4.34}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gnu.org/software/auctex/manual/reftex.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.gnu.org/software/auctex/manual/reftex.pdf
+      \endverb
+    \endentry
+    \entry{manresa23:_normat_trebal_fi_estud_epsem}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=3d48394fab80b57f7deea0dd12bfa533}{%
+           family={{Escola Politècnica Superior d'Enginyeria de Manresa}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {catalan}%
+      }
+      \list{location}{1}{%
+        {Manresa}%
+      }
+      \list{organization}{1}{%
+        {Universitat Politècnica de Catalunya}%
+      }
+      \strng{namehash}{3d48394fab80b57f7deea0dd12bfa533}
+      \strng{fullhash}{3d48394fab80b57f7deea0dd12bfa533}
+      \strng{fullhashraw}{3d48394fab80b57f7deea0dd12bfa533}
+      \strng{bibnamehash}{3d48394fab80b57f7deea0dd12bfa533}
+      \strng{authorbibnamehash}{3d48394fab80b57f7deea0dd12bfa533}
+      \strng{authornamehash}{3d48394fab80b57f7deea0dd12bfa533}
+      \strng{authorfullhash}{3d48394fab80b57f7deea0dd12bfa533}
+      \strng{authorfullhashraw}{3d48394fab80b57f7deea0dd12bfa533}
+      \field{labelalpha}{Esc23}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{subtitle}{Acord CP.EPSEM/2023/08/31, de 14 de juny de 2023, de la Comissió Permanent de l’EPSEM}
+      \field{title}{Normativa de Treball Fi d’Estudis de l’EPSEM}
+      \field{urlday}{28}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://epsem.upc.edu/ca/escola/serveis-utgm/gestio-academica/normatives-epsem/NormativaTFE_apartircurs2324_AcordCPEPSEM20230831.pdf
+      \endverb
+      \verb{url}
+      \verb https://epsem.upc.edu/ca/escola/serveis-utgm/gestio-academica/normatives-epsem/NormativaTFE_apartircurs2324_AcordCPEPSEM20230831.pdf
+      \endverb
+    \endentry
+    \entry{fabra84:_conver}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{hash=092d753a61054096b8ed1ed615e09350}{%
+           family={Fabra},
+           familyi={F\bibinitperiod},
+           given={Pompeu},
+           giveni={P\bibinitperiod}}}%
+      }
+      \name{commentator}{1}{}{%
+        {{hash=519ae5b2794b1d076202359a75460636}{%
+           family={{Rafel i Fontanals}},
+           familyi={R\bibinitperiod},
+           given={Joaquim},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=519ae5b2794b1d076202359a75460636}{%
+           family={{Rafel i Fontanals}},
+           familyi={R\bibinitperiod},
+           given={Joaquim},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {catalan}%
+      }
+      \list{location}{1}{%
+        {Barcelona}%
+      }
+      \list{publisher}{1}{%
+        {Fundació Enciclopèdia Catalana}%
+      }
+      \strng{namehash}{092d753a61054096b8ed1ed615e09350}
+      \strng{fullhash}{092d753a61054096b8ed1ed615e09350}
+      \strng{fullhashraw}{092d753a61054096b8ed1ed615e09350}
+      \strng{bibnamehash}{092d753a61054096b8ed1ed615e09350}
+      \strng{authorbibnamehash}{092d753a61054096b8ed1ed615e09350}
+      \strng{authornamehash}{092d753a61054096b8ed1ed615e09350}
+      \strng{authorfullhash}{092d753a61054096b8ed1ed615e09350}
+      \strng{authorfullhashraw}{092d753a61054096b8ed1ed615e09350}
+      \strng{commentatorbibnamehash}{519ae5b2794b1d076202359a75460636}
+      \strng{commentatornamehash}{519ae5b2794b1d076202359a75460636}
+      \strng{commentatorfullhash}{519ae5b2794b1d076202359a75460636}
+      \strng{commentatorfullhashraw}{519ae5b2794b1d076202359a75460636}
+      \strng{editorbibnamehash}{519ae5b2794b1d076202359a75460636}
+      \strng{editornamehash}{519ae5b2794b1d076202359a75460636}
+      \strng{editorfullhash}{519ae5b2794b1d076202359a75460636}
+      \strng{editorfullhashraw}{519ae5b2794b1d076202359a75460636}
+      \field{labelalpha}{Fab84}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Converses Filològiques}
+      \field{isbn}{84-350-5111-0}
+      \field{title}{Conversa 391}
+      \field{urlday}{29}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{volume}{II}
+      \field{year}{1984}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://femfum.com/PDF/ElaGeminada/PF_CF_323_391.pdf
+      \endverb
+      \verb{url}
+      \verb http://femfum.com/PDF/ElaGeminada/PF_CF_323_391.pdf
+      \endverb
+    \endentry
+    \entry{foundation19:_gnu_emacs}{online}{}{}
+      \name{editor}{1}{}{%
+        {{hash=24d8eced16f9eb9a4f1e3622560d470c}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={Free\bibnamedelima Software},
+           giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{24d8eced16f9eb9a4f1e3622560d470c}
+      \strng{fullhash}{24d8eced16f9eb9a4f1e3622560d470c}
+      \strng{fullhashraw}{24d8eced16f9eb9a4f1e3622560d470c}
+      \strng{bibnamehash}{24d8eced16f9eb9a4f1e3622560d470c}
+      \strng{editorbibnamehash}{24d8eced16f9eb9a4f1e3622560d470c}
+      \strng{editornamehash}{24d8eced16f9eb9a4f1e3622560d470c}
+      \strng{editorfullhash}{24d8eced16f9eb9a4f1e3622560d470c}
+      \strng{editorfullhashraw}{24d8eced16f9eb9a4f1e3622560d470c}
+      \field{labelalpha}{Fou19}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{An extensible, customizable, free/libre text editor --- and more.}
+      \field{title}{GNU Emacs}
+      \field{urlday}{29}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gnu.org/software/emacs
+      \endverb
+      \verb{url}
+      \verb https://www.gnu.org/software/emacs
+      \endverb
+    \endentry
+    \entry{periodicals18:_ieee_refer_guide}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=965a73b23c9a2e50ca83d47aceddb0f0}{%
+           family={{IEEE Periodicals}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {Piscataway, NJ, USA}%
+      }
+      \list{organization}{1}{%
+        {IEEE Periodicals. Transactions/Journals Department}%
+      }
+      \strng{namehash}{965a73b23c9a2e50ca83d47aceddb0f0}
+      \strng{fullhash}{965a73b23c9a2e50ca83d47aceddb0f0}
+      \strng{fullhashraw}{965a73b23c9a2e50ca83d47aceddb0f0}
+      \strng{bibnamehash}{965a73b23c9a2e50ca83d47aceddb0f0}
+      \strng{authorbibnamehash}{965a73b23c9a2e50ca83d47aceddb0f0}
+      \strng{authornamehash}{965a73b23c9a2e50ca83d47aceddb0f0}
+      \strng{authorfullhash}{965a73b23c9a2e50ca83d47aceddb0f0}
+      \strng{authorfullhashraw}{965a73b23c9a2e50ca83d47aceddb0f0}
+      \field{labelalpha}{IEE18}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{pagetotal}{40}
+      \field{title}{{IEEE Reference Guide}}
+      \field{urlday}{26}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf
+      \endverb
+      \verb{url}
+      \verb https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf
+      \endverb
+    \endentry
+    \entry{iso21:_iso_690}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=7058e4bd76f877c52b621c942b30613c}{%
+           family={{International Organization for Standardization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=5b512ee8a59deb284ad0a6a035ba10b1}{%
+           family={{ISO}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {International Organization for Standardization}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {Vernier, Geneva, Switzerland}%
+      }
+      \strng{namehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{fullhash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{fullhashraw}{7058e4bd76f877c52b621c942b30613c}
+      \strng{bibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{authorbibnamehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{authornamehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{authorfullhash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{authorfullhashraw}{7058e4bd76f877c52b621c942b30613c}
+      \strng{shortauthorbibnamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{shortauthornamehash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{shortauthorfullhash}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \strng{shortauthorfullhashraw}{5b512ee8a59deb284ad0a6a035ba10b1}
+      \field{labelalpha}{ISO21}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{label}{ISO}
+      \field{month}{6}
+      \field{pagetotal}{160}
+      \field{subtitle}{Guidelines for bibliographic references and citations to information resources}
+      \field{title}{{ISO 690:2021 Information and documentation}}
+      \field{type}{ISO Standard}
+      \field{year}{2021}
+    \endentry
+    \entry{lehman14:_biblat_packag}{manual}{}{}
+      \name{author}{3}{}{%
+        {{hash=518f52ea2d73db1cfac0095db0482363}{%
+           family={Kime},
+           familyi={K\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e1cc18b9b6d3955ba487be6c20e4d7db}{%
+           family={Wemheuer},
+           familyi={W\bibinitperiod},
+           given={Moritz},
+           giveni={M\bibinitperiod}}}%
+        {{hash=97afecc8539f253db93a1c737d62212c}{%
+           family={Lehman},
+           familyi={L\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2d88e724e6451f7dbcac6df4175bf7e}
+      \strng{fullhash}{f2d88e724e6451f7dbcac6df4175bf7e}
+      \strng{fullhashraw}{f2d88e724e6451f7dbcac6df4175bf7e}
+      \strng{bibnamehash}{f2d88e724e6451f7dbcac6df4175bf7e}
+      \strng{authorbibnamehash}{f2d88e724e6451f7dbcac6df4175bf7e}
+      \strng{authornamehash}{f2d88e724e6451f7dbcac6df4175bf7e}
+      \strng{authorfullhash}{f2d88e724e6451f7dbcac6df4175bf7e}
+      \strng{authorfullhashraw}{f2d88e724e6451f7dbcac6df4175bf7e}
+      \field{labelalpha}{KWL22}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{subtitle}{Programmable Bibliographies and Citations}
+      \field{title}{The Biblatex Package}
+      \field{urlday}{29}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{version}{3.18}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://mirrors.ctan.org/macros/latex/contrib/biblatex/doc/biblatex.pdf
+      \endverb
+      \verb{url}
+      \verb http://mirrors.ctan.org/macros/latex/contrib/biblatex/doc/biblatex.pdf
+      \endverb
+    \endentry
+    \entry{lamport94:_latex_ed}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=5d77435450d10a850a5b58577b9a456b}{%
+           family={Lamport},
+           familyi={L\bibinitperiod},
+           given={Leslie},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {Boston, MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley Longman Publishing Co., Inc.}%
+      }
+      \strng{namehash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{fullhash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{fullhashraw}{5d77435450d10a850a5b58577b9a456b}
+      \strng{bibnamehash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{authorbibnamehash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{authornamehash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{authorfullhash}{5d77435450d10a850a5b58577b9a456b}
+      \strng{authorfullhashraw}{5d77435450d10a850a5b58577b9a456b}
+      \field{labelalpha}{Lam94}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{isbn}{0-201-52983-1}
+      \field{subtitle}{User's Guide and Reference Manual}
+      \field{title}{\LaTeX{} (2nd ed.) -- A Document Preparation System}
+      \field{titleaddon}{Updated for \LaTeX2e{}}
+      \field{year}{1994}
+    \endentry
+    \entry{murray06:_handb_academ_writin}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=641d8ffce04c1c3348e7767cefe81ccd}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={Rowena},
+           giveni={R\bibinitperiod}}}%
+        {{hash=29f2e0b523228ae2d02ab6b0f3ddf95d}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {Berkshire, England}%
+      }
+      \list{publisher}{1}{%
+        {Open University Press, McGraw-Hill}%
+      }
+      \strng{namehash}{2596c37cbc8734483cf10d51944e8966}
+      \strng{fullhash}{2596c37cbc8734483cf10d51944e8966}
+      \strng{fullhashraw}{2596c37cbc8734483cf10d51944e8966}
+      \strng{bibnamehash}{2596c37cbc8734483cf10d51944e8966}
+      \strng{authorbibnamehash}{2596c37cbc8734483cf10d51944e8966}
+      \strng{authornamehash}{2596c37cbc8734483cf10d51944e8966}
+      \strng{authorfullhash}{2596c37cbc8734483cf10d51944e8966}
+      \strng{authorfullhashraw}{2596c37cbc8734483cf10d51944e8966}
+      \field{labelalpha}{MM06}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780335219339}
+      \field{pagetotal}{196}
+      \field{subtitle}{A Fresh Approach}
+      \field{title}{The Handbook of Academic Writing}
+      \field{year}{2006}
+    \endentry
+    \entry{oetiker:_not_so_short_introd_latex}{book}{}{}
+      \name{author}{4}{}{%
+        {{hash=5d11479143005f8afd00a80db661847f}{%
+           family={Oetiker},
+           familyi={O\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8ca96670929452aa6904ed514c3b557d}{%
+           family={Partl},
+           familyi={P\bibinitperiod},
+           given={Hubert},
+           giveni={H\bibinitperiod}}}%
+        {{hash=db9b819bf4a42d221113f40ed8c86d64}{%
+           family={Hyna},
+           familyi={H\bibinitperiod},
+           given={Irene},
+           giveni={I\bibinitperiod}}}%
+        {{hash=18761ea06cd8d6305a71fa1fde3f4b19}{%
+           family={Schlegl},
+           familyi={S\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{febdb7d8cc94bfeec1182be1d0189280}
+      \strng{fullhash}{8fca386a8f8bd6243f3461ae9167a2f4}
+      \strng{fullhashraw}{8fca386a8f8bd6243f3461ae9167a2f4}
+      \strng{bibnamehash}{febdb7d8cc94bfeec1182be1d0189280}
+      \strng{authorbibnamehash}{febdb7d8cc94bfeec1182be1d0189280}
+      \strng{authornamehash}{febdb7d8cc94bfeec1182be1d0189280}
+      \strng{authorfullhash}{8fca386a8f8bd6243f3461ae9167a2f4}
+      \strng{authorfullhashraw}{8fca386a8f8bd6243f3461ae9167a2f4}
+      \field{labelalpha}{Oet+21}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{edition}{6.4}
+      \field{month}{3}
+      \field{pagetotal}{153}
+      \field{subtitle}{Or \LaTeX2e{} in 139 minutes}
+      \field{title}{The Not So Short Introduction to \LaTeX2e{}}
+      \field{urlday}{29}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://tug.ctan.org/info/lshort/english/lshort.pdf
+      \endverb
+      \verb{url}
+      \verb http://tug.ctan.org/info/lshort/english/lshort.pdf
+      \endverb
+    \endentry
+    \entry{stallman81:_emacs_exten_custom_self_displ_editor}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=ff9eb61149ae5689c661089e50f618e4}{%
+           family={Stallman},
+           familyi={S\bibinitperiod},
+           given={Richard\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {Portland, Oregon, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{ff9eb61149ae5689c661089e50f618e4}
+      \strng{fullhash}{ff9eb61149ae5689c661089e50f618e4}
+      \strng{fullhashraw}{ff9eb61149ae5689c661089e50f618e4}
+      \strng{bibnamehash}{ff9eb61149ae5689c661089e50f618e4}
+      \strng{authorbibnamehash}{ff9eb61149ae5689c661089e50f618e4}
+      \strng{authornamehash}{ff9eb61149ae5689c661089e50f618e4}
+      \strng{authorfullhash}{ff9eb61149ae5689c661089e50f618e4}
+      \strng{authorfullhashraw}{ff9eb61149ae5689c661089e50f618e4}
+      \field{labelalpha}{Sta81}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the ACM SIGPLAN SIGOA Symposium on Text Manipulation}
+      \field{isbn}{0-89791-050-8}
+      \field{title}{EMACS the Extensible, Customizable Self-documenting Display Editor}
+      \field{year}{1981}
+      \field{pages}{147\bibrangedash 156}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/800209.806466
+      \endverb
+    \endentry
+    \entry{thorup17:_auctex_sophis}{online}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=2863d5abaf53187dfb7d1432526f9319}{%
+           family={Thorup},
+           familyi={T\bibinitperiod},
+           given={Kresten\bibnamedelima Krab},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=9db9fc5dd9a24bfa959481f2f7868cbe}{%
+           family={Abrahamsen},
+           familyi={A\bibinitperiod},
+           given={Per},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d427aa1d46020d06602692388a7c6807}{%
+           family={Kastrup},
+           familyi={K\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{d247cc0d658a530effc216b989f3270c}
+      \strng{fullhash}{d247cc0d658a530effc216b989f3270c}
+      \strng{fullhashraw}{d247cc0d658a530effc216b989f3270c}
+      \strng{bibnamehash}{d247cc0d658a530effc216b989f3270c}
+      \strng{authorbibnamehash}{d247cc0d658a530effc216b989f3270c}
+      \strng{authornamehash}{d247cc0d658a530effc216b989f3270c}
+      \strng{authorfullhash}{d247cc0d658a530effc216b989f3270c}
+      \strng{authorfullhashraw}{d247cc0d658a530effc216b989f3270c}
+      \field{labelalpha}{TAK+22}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{AUCTeX – Sophisticated document creation}
+      \field{urlday}{29}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{version}{13.01}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gnu.org/software/auctex/
+      \endverb
+      \verb{url}
+      \verb https://www.gnu.org/software/auctex/
+      \endverb
+    \endentry
+    \entry{termcat18:_web_termc}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=5175deab22e174d2de6adad95e724684}{%
+           family={Termcat},
+           familyi={T\bibinitperiod},
+           given={Centre\bibnamedelimb de\bibnamedelima Terminologia},
+           giveni={C\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {catalan}%
+      }
+      \strng{namehash}{5175deab22e174d2de6adad95e724684}
+      \strng{fullhash}{5175deab22e174d2de6adad95e724684}
+      \strng{fullhashraw}{5175deab22e174d2de6adad95e724684}
+      \strng{bibnamehash}{5175deab22e174d2de6adad95e724684}
+      \strng{authorbibnamehash}{5175deab22e174d2de6adad95e724684}
+      \strng{authornamehash}{5175deab22e174d2de6adad95e724684}
+      \strng{authorfullhash}{5175deab22e174d2de6adad95e724684}
+      \strng{authorfullhashraw}{5175deab22e174d2de6adad95e724684}
+      \field{labelalpha}{Ter18}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Web del Termcat}
+      \field{urlday}{12}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.termcat.cat
+      \endverb
+      \verb{url}
+      \verb http://www.termcat.cat
+      \endverb
+    \endentry
+    \entry{chicago17:_chicag_manual_style}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=f7bdd88b4f93e78ba68ce164c8d727fc}{%
+           family={{The University of Chicago Press}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {Chicago, IL}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{f7bdd88b4f93e78ba68ce164c8d727fc}
+      \strng{fullhash}{f7bdd88b4f93e78ba68ce164c8d727fc}
+      \strng{fullhashraw}{f7bdd88b4f93e78ba68ce164c8d727fc}
+      \strng{bibnamehash}{f7bdd88b4f93e78ba68ce164c8d727fc}
+      \strng{authorbibnamehash}{f7bdd88b4f93e78ba68ce164c8d727fc}
+      \strng{authornamehash}{f7bdd88b4f93e78ba68ce164c8d727fc}
+      \strng{authorfullhash}{f7bdd88b4f93e78ba68ce164c8d727fc}
+      \strng{authorfullhashraw}{f7bdd88b4f93e78ba68ce164c8d727fc}
+      \field{labelalpha}{The17}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{17}
+      \field{isbn}{022628705X}
+      \field{pagetotal}{1144}
+      \field{title}{The Chicago Manual of Style}
+      \field{year}{2017}
+    \endentry
+    \entry{thurston01:_histor_growt_steam_engin}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=c0848586371e0bfbec5b4ad927aa2f2c}{%
+           family={Thurston},
+           familyi={T\bibinitperiod},
+           given={Robert\bibnamedelima Henry},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {New York, USA}%
+      }
+      \list{publisher}{1}{%
+        {D. Appleton {and} company}%
+      }
+      \strng{namehash}{c0848586371e0bfbec5b4ad927aa2f2c}
+      \strng{fullhash}{c0848586371e0bfbec5b4ad927aa2f2c}
+      \strng{fullhashraw}{c0848586371e0bfbec5b4ad927aa2f2c}
+      \strng{bibnamehash}{c0848586371e0bfbec5b4ad927aa2f2c}
+      \strng{authorbibnamehash}{c0848586371e0bfbec5b4ad927aa2f2c}
+      \strng{authornamehash}{c0848586371e0bfbec5b4ad927aa2f2c}
+      \strng{authorfullhash}{c0848586371e0bfbec5b4ad927aa2f2c}
+      \strng{authorfullhashraw}{c0848586371e0bfbec5b4ad927aa2f2c}
+      \field{labelalpha}{Thu01}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{A History of the Growth of the Steam-Engine}
+      \field{year}{1901}
+    \endentry
+    \entry{tufte01:_visual_displ_quant_infor}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=41187f886abb9d98f33e5b3f52276d12}{%
+           family={Tufte},
+           familyi={T\bibinitperiod},
+           given={Edward\bibnamedelima R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cheshire, CT}%
+      }
+      \list{publisher}{1}{%
+        {Graphics Press}%
+      }
+      \strng{namehash}{41187f886abb9d98f33e5b3f52276d12}
+      \strng{fullhash}{41187f886abb9d98f33e5b3f52276d12}
+      \strng{fullhashraw}{41187f886abb9d98f33e5b3f52276d12}
+      \strng{bibnamehash}{41187f886abb9d98f33e5b3f52276d12}
+      \strng{authorbibnamehash}{41187f886abb9d98f33e5b3f52276d12}
+      \strng{authornamehash}{41187f886abb9d98f33e5b3f52276d12}
+      \strng{authorfullhash}{41187f886abb9d98f33e5b3f52276d12}
+      \strng{authorfullhashraw}{41187f886abb9d98f33e5b3f52276d12}
+      \field{labelalpha}{Tuf01}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The classic book on statistical graphics, charts, tables. Theory and practice in the design of data graphics, 250 illustrations of the best (and a few of the worst) statistical graphics, with detailed analysis of how to display data for precise, effective, quick analysis. Design of the high-resolution displays, small multiples. Editing and improving graphics. The data-ink ratio. Time-series, relational graphics, data maps, multivariate designs. Detection of graphical deception: design variation vs. data variation. Sources of deception. Aesthetics and data graphical displays. This new edition provides excellent color reproductions of the many graphics of William Playfair, adds color to other images, and includes all the changes and corrections accumulated during 17 printings of the first edition.}
+      \field{edition}{2}
+      \field{isbn}{978-0-9613921-4-7}
+      \field{title}{The Visual Display of Quantitative Information}
+      \field{year}{2001}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

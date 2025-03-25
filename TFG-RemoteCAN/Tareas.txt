@@ -1,0 +1,21 @@
+Documentacion
+-Organizarlo todo
+-Correcta explicacion de los comandos AT y la comunicacion MQTT
+-Correcta explicacion del protocolo CAN sus variantes y su relacion con el OBD2
+
+Codigo
+-Tener dos proyectos paralelos Arduino/ESP-IDF de momento, con las librerias necesarias
+-Reorganizar el codigo del MQTT
+	     -Como hacer que Tx y Rx no se interrumpan
+	     -Hacer siempre un read despues de cada Tx
+
+-Probar la comunicacion CAN cuando llegue todo
+	-Pines a utilizar
+-Ver como hacer sinffing
+
+Placa
+-Acabar el dieño
+-Preguntas Joan
+	   -Los pines los sueldo
+	   -Forma de la placa
+	   -Tiene un integrado del que necesito?

@@ -1,0 +1,41 @@
+\babel@toc {catalan}{}\relax 
+\contentsline {chapter}{\nonumberline Resum}{vii}{chapter*.1}%
+\contentsline {chapter}{\nonumberline Abstract}{vii}{chapter*.2}%
+\babel@toc {english}{}\relax 
+\babel@toc {catalan}{}\relax 
+\contentsline {part}{\numberline {I}Memòria}{1}{part.1}%
+\contentsline {chapter}{\numberline {1}Introducció}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Insta\l .lació}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Documentació}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Opcions de la classe tfgitic}{5}{section.1.3}%
+\contentsline {chapter}{\numberline {2}La llengua del document}{7}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Aspectes de la redacció}{9}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Criteris ortotipogràfics fonamentals}{11}{chapter.4}%
+\babel@toc {english}{}\relax 
+\babel@toc {catalan}{}\relax 
+\contentsline {chapter}{\numberline {5}Taules i figures}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Etiquetes i referències}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Taules}{15}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Figures}{16}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Els peus de taula i de figura}{18}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Notació matemàtica}{21}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Algoritmes i programes}{23}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Fitxers, ordres i \textit {shell}}{23}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Algoritmes}{23}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Gestió de la bibliografia}{25}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Citacions i bibliografia en el \textsc {tfe}}{25}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Eines \LaTeX {} per la bibliografia}{26}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Processat de la bibliografia}{27}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Alguns detalls sobre la bibliografia}{27}{section.8.4}%
+\contentsline {chapter}{\numberline {9}Organització de la memòria}{29}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Consideracions generals}{29}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Divisions principals}{29}{section.9.2}%
+\contentsline {chapter}{\nonumberline Bibliografia}{35}{chapter*.8}%
+\contentsline {part}{\numberline {II}Apèndixs}{37}{part.2}%
+\contentsline {chapter}{\numberline {A}Regles d'or de la memòria de TFE}{39}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Història d'aquesta classe}{41}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Brevíssima introducció a \LaTeX }{43}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Suport d'emacs}{45}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Insta\l .lació}{45}{section.D.1}%
+\contentsline {section}{\numberline {D.2}Ús bàsic}{45}{section.D.2}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

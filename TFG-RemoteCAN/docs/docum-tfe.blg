@@ -1,0 +1,14 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'docum-tfe.blg'
+[40] biber:340> INFO - === lun mar 24, 2025, 11:06:33
+[53] Biber.pm:420> INFO - Reading 'docum-tfe.bcf'
+[97] Biber.pm:994> INFO - Found 20 citekeys in bib section 0
+[106] Biber.pm:4463> INFO - Processing section 0
+[113] Biber.pm:4654> INFO - Looking for bibtex file 'docum-tfe.bib' for section 0
+[114] bibtex.pm:1713> INFO - LaTeX decoding ...
+[130] bibtex.pm:1519> INFO - Found BibTeX data source 'docum-tfe.bib'
+[237] UCollate.pm:68> INFO - Overriding locale 'ca-AD' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[237] UCollate.pm:68> INFO - Overriding locale 'ca-AD' defaults 'variable = shifted' with 'variable = non-ignorable'
+[237] Biber.pm:4283> INFO - Sorting list 'anyt/global//global/global/global' of type 'entry' with template 'anyt' and locale 'ca-AD'
+[253] bbl.pm:676> INFO - Writing 'docum-tfe.bbl' with encoding 'UTF-8'
+[259] bbl.pm:779> INFO - Output to docum-tfe.bbl

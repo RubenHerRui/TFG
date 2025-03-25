@@ -1,0 +1,21 @@
+import paho.mqtt.client as mqtt
+
+# Configuración del broker
+BROKER = "localhost"  # Cambia esto si usas un broker externo
+PUERTO = 1883
+TOPICO = "test/mensaje"
+MENSAJE = "¡Hola desde Python!"
+
+# Crear cliente MQTT
+cliente = mqtt.Client()
+
+# Conectar al broker
+cliente.connect(BROKER, PUERTO, 60)
+
+# Publicar mensaje
+cliente.publish(TOPICO, MENSAJE)
+
+# Cerrar conexión
+cliente.disconnect()
+
+print(f"Mensaje enviado al tópico '{TOPICO}': {MENSAJE}")
