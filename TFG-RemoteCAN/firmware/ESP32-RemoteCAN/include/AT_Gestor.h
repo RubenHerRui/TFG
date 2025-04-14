@@ -5,33 +5,33 @@
 
 void init_sim(void);
 void write_AT(const char *comand);
-void read_AT(char* rx_buffer, size_t buffer_size);
+void read_AT(char* rx_buffer);
 
-bool contieneOK(const char *str);
-bool contieneCLOST(const char *str);
-
-bool read_MQTT(char *output);
-bool AT(void);
+void read_MQTT(char *output);
+void AT(void);
 void AT_CPIN_D(int pin);
-bool AT_CPIN_Q(void);
-bool AT_CSQ(void);
-bool AT_CREG_Q(void);
-bool AT_CGREG_Q(void);
-bool AT_CPSI_Q(void);
-bool AT_CGDCONT_D(int cid, const char* ip, const char* APN);
-bool AT_CGACT_D(int state, int cid);
-bool AT_CGACT_Q(void);
-bool AT_MQTT_START(void);
-bool AT_MQTT_ACCQ(int client_num, const char* client_id);
-bool AT_MQTT_WILLTOPIC(int client_num, const char* topic);
-bool AT_MQTT_WILLMSG(int client_num, int qos, const char* message);
-bool AT_MQTT_CONNECT(int client_num, const char* broker_ip, int keep_alive, int clean_session);
-bool AT_MQTT_SUBSCRIBE(int client_num, const char* topic, int qos);
-bool AT_MQTT_DISCONNECT(int client_num, int timeout);
-bool AT_MQTT_RELEASE(int client_num);
-bool AT_MQTT_STOP(void);
-bool AT_MQTT_TOPIC(int client_num, const char* topic); 
-bool AT_MQTT_PAYLOAD(int client_num, const char* payload); 
-bool AT_PUBLISH(int client_num, int qos, int retain);
+void AT_CPIN_Q(void);
+void AT_CSQ(void);
+void AT_CREG_Q(void);
+void AT_CGREG_Q(void);
+void AT_CPSI_Q(void);
+void AT_CGDCONT_D(int cid, const char* ip, const char* APN);
+void AT_CGACT_D(int state, int cid);
+void AT_CGACT_Q(void);
+void AT_MQTT_START(void);
+void AT_MQTT_ACCQ(int client_num, const char* client_id);
+void AT_MQTT_WILLTOPIC(int client_num, const char* topic);
+void AT_MQTT_WILLMSG(int client_num, int qos, const char* message);
+void AT_MQTT_CONNECT(int client_num, const char* broker_ip, int keep_alive, int clean_session);
+void AT_MQTT_SUBSCRIBE(int client_num, const char* topic, int qos);
+void AT_MQTT_SUBSCRIBE_2(const char* topic);
+void AT_MQTT_DISCONNECT(int client_num, int timeout);
+void AT_MQTT_RELEASE(int client_num);
+void AT_MQTT_STOP(void);
+void AT_MQTT_TOPIC(int client_num, const char* topic); 
+void AT_MQTT_TOPIC_2(const char* topic); 
+void AT_MQTT_PAYLOAD(int client_num, const char* payload); 
+void AT_MQTT_PAYLOAD_2(const char* payload); 
+void AT_PUBLISH(int client_num, int qos, int retain);
 
 #endif // AT_GESTOR_H

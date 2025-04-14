@@ -8,32 +8,23 @@
 #include "MQTT_Gestor.h"
 #include "CAN_Gestor.h"
 
-#define MQTT_BUF_SIZE 256  // Tamaño del buffer mqtt
 
-void read_MQTT_processor(void){
-    if (rx_mqtt_available()){
-        char buffer_mqtt[MQTT_BUF_SIZE]; 
-        rx_mqtt(buffer_mqtt);
-        ESP_LOGI("Main", "%s", buffer_mqtt);
-        
-    }
-}
 // Función para la tarea de la máquina de estados
 void general_state_task(void *pvParameters) {
     while (true) {
         general_state_machine();
-        read_MQTT_processor();
     }
 }
 
 void app_main(void) {
-    vTaskDelay(pdMS_TO_TICKS(1000)); // Espera inicial
+    vTaskDelay(pdMS_TO_TICKS(500)); // Espera inicial
 
     // Crear la tarea de la máquina de estados
     xTaskCreate(general_state_task, "GeneralStateTask", 4096, NULL, 5, NULL);
+    vTaskDelay(pdMS_TO_TICKS(50000)); // Publicación cada 1 segundo
     while (true) {
         tx_mqtt("test/topic", "Hola desde ESP");
-        vTaskDelay(pdMS_TO_TICKS(10000)); 
+        vTaskDelay(pdMS_TO_TICKS(1000)); 
     }
 }
 

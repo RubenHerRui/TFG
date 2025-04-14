@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../Documentos/PlatformIO/Projects"
+		},
+		{
+			"name": "ESP32-RemoteCAN",
+			"path": "../../Documentos/PlatformIO/Projects/ESP32-RemoteCAN"
+		},
+		{
+			"name": "ESPCANTest",
+			"path": "../../Documentos/PlatformIO/Projects/ESPCANTest"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdbool.h": "c"
+		}
+	}
+}
