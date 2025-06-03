@@ -12,8 +12,8 @@
 #define PWR_PIN 18 //Pin que enciende el modulo SIM
 #define UART_BUF_SIZE_RX 1024 //Tamaño del buffer para almazenar mesnajes Rx
 #define UART_BUF_SIZE_TX 256 //Tamaño del buffer para almazenar mesnajes Tx
-#define TAG "AT_Gestor" //Nombre del modulo
-#define DEBUG true //Habilita los prints para el debug
+#define TAG "AT_GESTOR" //Nombre del modulo
+#define DEBUG false //Habilita los prints para el debug
 
 static char command[UART_BUF_SIZE_TX]; //Buffer generico para formar los comandos AT
 
@@ -21,6 +21,7 @@ void init_sim(void){
 	//Enciende el modulo sim
 	gpio_set_direction(PWR_PIN, GPIO_MODE_OUTPUT);
     gpio_set_level(PWR_PIN, 1);
+    vTaskDelay(pdMS_TO_TICKS(5000));
 
 	//Configura la comunicacion UART con el mdoulo sim
 	uart_config_t uart_config = {
@@ -100,8 +101,8 @@ void AT_MQTT_START(void) {
     write_AT("AT+CMQTTSTART\r\n");
 }
 
-void AT_MQTT_ACCQ(int client_num, const char* client_id) {
-    sprintf(command, "AT+CMQTTACCQ=%d,\"%s\"\r\n", client_num, client_id);
+void AT_MQTT_ACCQ(int client_num, const char* client_id, int server_type) {
+    sprintf(command, "AT+CMQTTACCQ=%d,\"%s\",%d\r\n", client_num, client_id, server_type);
     write_AT(command);
 }
 
@@ -118,8 +119,8 @@ void AT_MQTT_WILLMSG(int client_num, int qos, const char* message) {
     write_AT(message);
 }
 
-void AT_MQTT_CONNECT(int client_num, const char* broker_ip, int keep_alive, int clean_session) {
-    sprintf(command, "AT+CMQTTCONNECT=%d,\"tcp://%s:1883\",%d,%d\r\n", client_num, broker_ip, keep_alive, clean_session);
+void AT_MQTT_CONNECT(int client_num, const char* broker_ip, const char* broker_port,int keep_alive, int clean_session) {
+    sprintf(command, "AT+CMQTTCONNECT=%d,\"tcp://%s:%s\",%d,%d\r\n", client_num, broker_ip, broker_port,keep_alive, clean_session);
     write_AT(command);
 }
 

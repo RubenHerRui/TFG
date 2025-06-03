@@ -1,10 +1,11 @@
 import paho.mqtt.client as mqtt
+import random
 
 # Configuración del broker
-BROKER = "37.15.75.44"  # Cambia esto si usas un broker externo
+BROKER = "37.15.75.249"  # Cambia esto si usas un broker externo
 PUERTO = 1883
-TOPICO = "test/topic"
-MENSAJE = "¡Hola desde Python!"
+TOPICO = "car/speed"
+MENSAJE = random.randint(20, 120)
 
 # Crear cliente MQTT
 cliente = mqtt.Client()

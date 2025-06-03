@@ -1,14 +1,16 @@
 #ifndef CAN_GESTOR_H
 #define CAN_GESTOR_H
 
-void init_can(void);
+void init_CAN(void);
 
-void stop_can(void);
+void stop_CAN(void);
 
-void transmit_can(int ID, int mode, int rtr, int payload_length, uint8_t* payload);
+void write_CAN(int ID, int mode, int rtr, int payload_length, uint8_t* payload);
 
-void receive_can(void);
+bool read_CAN(twai_message_t *message);
 
-void tx_speed(void);
+void write_CAN_speed(void);
+
+void write_CAN_rpm(void);
 
 #endif // CAN_GESTOR_H

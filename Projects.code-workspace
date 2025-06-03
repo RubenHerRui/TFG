@@ -10,11 +10,18 @@
 		{
 			"name": "ESPCANTest",
 			"path": "../../Documentos/PlatformIO/Projects/ESPCANTest"
+		},
+		{
+			"name": "Arduino-TestCAN",
+			"path": "../../Documentos/PlatformIO/Projects/Arduino-TestCAN"
 		}
 	],
 	"settings": {
 		"files.associations": {
-			"stdbool.h": "c"
+			"stdbool.h": "c",
+			"sniffer_gestor.h": "c",
+			"freertos.h": "c",
+			"mqtt_gestor.h": "c"
 		}
 	}
 }

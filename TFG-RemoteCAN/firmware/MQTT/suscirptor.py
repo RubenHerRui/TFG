@@ -9,10 +9,10 @@ client = mqtt.Client()
 client.on_message = on_message  # Asignar la función de callback
 
 # Conectar al broker (localhost si lo tienes en tu máquina)
-client.connect("37.15.75.44", 1883, 60)
+client.connect("37.15.75.249", 1883, 60)
 
 # Suscribirse a un tópico (por ejemplo, "test/topic")
-client.subscribe("test/topic")
+client.subscribe("car/speed")
 
 # Mantener el cliente en ejecución
 print("Esperando mensajes...")
