@@ -32,5 +32,9 @@ void AT_MQTT_TOPIC_2(const char* topic);
 void AT_MQTT_PAYLOAD(int client_num, const char* payload); 
 void AT_MQTT_PAYLOAD_2(const char* payload); 
 void AT_PUBLISH(int client_num, int qos, int retain);
+void AT_GPS_ON(int gnss_power_status);
+void AT_GPS_COLD(void);
+void AT_GPS_WARM(void);
+void AT_GPS_DATA(void);
 
 #endif // AT_GESTOR_H

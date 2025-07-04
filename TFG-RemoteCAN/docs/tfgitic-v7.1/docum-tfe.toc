@@ -1,0 +1,81 @@
+\babel@toc {catalan}{}\relax 
+\contentsline {chapter}{\nonumberline Resum}{v}{chapter*.1}%
+\contentsline {chapter}{\nonumberline Abstract}{v}{chapter*.2}%
+\babel@toc {english}{}\relax 
+\babel@toc {catalan}{}\relax 
+\contentsline {chapter}{\numberline {1}Introducció}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Comunicació amb el vehicle}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Protocol CAN}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Capa física}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Capa d'enllaç}{5}{subsection.2.1.2}%
+\contentsline {subsubsection}{\nonumberline Data Frame}{5}{subsubsection*.5}%
+\contentsline {subsubsection}{\nonumberline Remote Frame}{6}{subsubsection*.7}%
+\contentsline {subsubsection}{\nonumberline Error Frame}{7}{subsubsection*.9}%
+\contentsline {subsubsection}{\nonumberline Overload Frame}{7}{subsubsection*.11}%
+\contentsline {subsubsection}{\nonumberline Identificació i trames expandides}{7}{subsubsection*.13}%
+\contentsline {subsubsection}{\nonumberline Prioritats}{8}{subsubsection*.15}%
+\contentsline {subsubsection}{\nonumberline Accés al medi}{9}{subsubsection*.17}%
+\contentsline {subsubsection}{\nonumberline Bit timing i sincronització}{9}{subsubsection*.19}%
+\contentsline {subsubsection}{\nonumberline Bit stuffing}{10}{subsubsection*.21}%
+\contentsline {subsubsection}{\nonumberline ACK i CRC}{11}{subsubsection*.23}%
+\contentsline {subsubsection}{\nonumberline Gestió d'errors}{11}{subsubsection*.25}%
+\contentsline {subsection}{\numberline {2.1.3}Altres version del protocol CAN}{13}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Aplicació de CAN sobre sistemes de diagnosis}{13}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Restriccions a la capa física i a la capa d'enllaç}{14}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Capa de xarxa i capa de transport}{14}{subsection.2.2.2}%
+\contentsline {subsubsection}{\nonumberline Single Frame}{15}{subsubsection*.27}%
+\contentsline {subsubsection}{\nonumberline First Frame}{15}{subsubsection*.29}%
+\contentsline {subsubsection}{\nonumberline Consecutive Frame}{15}{subsubsection*.31}%
+\contentsline {subsubsection}{\nonumberline Flow Control}{15}{subsubsection*.33}%
+\contentsline {section}{\numberline {2.3}OBD-II}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Connector}{17}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Codis de errors (DTCs)}{17}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Missatges (PIDs)}{18}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Modes}{19}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Exemple pràctic d'ús d'un PID}{20}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Altres protocols de comunicació utilitzats per l'OBD-II}{21}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}Detalls no estandards de l'OBD-II}{21}{subsection.2.3.7}%
+\contentsline {subsubsection}{\nonumberline Estructura del bus}{21}{subsubsection*.35}%
+\contentsline {subsubsection}{\nonumberline Restriccions d'identificadors i mecanismes de protecció}{23}{subsubsection*.37}%
+\contentsline {chapter}{\numberline {3}Comunicació externa}{25}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Connexió a la xarxa mòbil}{25}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Comunicació amb un modul sim}{25}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}MQTT}{26}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Arquitectura del dispositiu}{29}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Disseny de la placa}{31}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Implementació de software}{35}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Entorn de programació}{35}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Comunicació SIM}{35}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Comandes AT necessaries}{35}{subsection.5.2.1}%
+\contentsline {subsubsection}{\nonumberline Comprovació del mòdul SIM}{36}{subsubsection*.39}%
+\contentsline {subsubsection}{\nonumberline Comandes per al context PDP}{36}{subsubsection*.41}%
+\contentsline {subsubsection}{\nonumberline Configuració de la connexió MQTT}{36}{subsubsection*.43}%
+\contentsline {subsubsection}{\nonumberline Altres respostes esperades}{37}{subsubsection*.45}%
+\contentsline {subsection}{\numberline {5.2.2}Mòdul AT\_Gestor}{37}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Mòdul MQTT\_Gestor}{38}{subsection.5.2.3}%
+\contentsline {subsubsection}{\nonumberline Excepcions a la lògica general}{39}{subsubsection*.47}%
+\contentsline {section}{\numberline {5.3}Comunicació CAN}{40}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Configuració i ús del controlador TWAI}{40}{subsection.5.3.1}%
+\contentsline {subsubsection}{\nonumberline Configuració general (twai\_general\_config\_t)}{40}{subsubsection*.49}%
+\contentsline {subsubsection}{\nonumberline Configuració de temporització (twai\_timing\_config\_t)}{40}{subsubsection*.51}%
+\contentsline {subsubsection}{\nonumberline Configuració de filtre (twai\_filter\_config\_t)}{41}{subsubsection*.53}%
+\contentsline {subsection}{\numberline {5.3.2}Transmissió de missatges}{41}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Recepció de missatges}{41}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Estat del sistema}{42}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Mòdul CAN\_Gestor}{42}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Projecte sniffing i modul Sniffer\_Gestor}{42}{subsection.5.3.6}%
+\contentsline {section}{\numberline {5.4}Procés principal}{43}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Client MQTT i Web}{44}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Broker MQTT}{44}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Servidor web}{44}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Fitxers estàtics}{45}{subsection.5.5.3}%
+\contentsline {section}{\numberline {5.6}Estructura final del projecte}{45}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Testeig}{47}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Comunicació SIM i MQTT}{47}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Comunicació CAN}{47}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Funcionalitat completa}{51}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Placa i conversor DC-DC}{51}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Conclusions}{55}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Ampliacions}{57}{chapter.8}%
+\contentsline {chapter}{\nonumberline Bibliografia}{59}{chapter*.54}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

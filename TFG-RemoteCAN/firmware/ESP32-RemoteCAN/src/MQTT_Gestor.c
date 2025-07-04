@@ -6,7 +6,6 @@
 #include "AT_Gestor.h"
 #include "MQTT_Gestor.h"
 
-//Datos para los comandos AT
 #define PIN 5581
 #define CID 1
 #define IP "IP"
@@ -23,17 +22,17 @@
 #define RETAIN 60
 #define TIMEOUT 120
 #define SERVER_TYPE 0 //TLS
-//#define BROKER_PORT "8883" //TLS
-#define BROKER_PORT "1883" //NO TLS
+//#define BROKER_PORT "8883"//TLS
+#define BROKER_PORT "1883"  //NO TLS
+#define GNSS_PS 1
 
 //Datos varios
-#define MQTT_BUF_SIZE 256  //Tamaño del buffer MQTT
-#define UART_BUF_SIZE 1024  //Tamaño del buffer UART
-#define MAX_TOPIC_LEN 32 //Tamaño maximo del topic
-#define DEBUG false //Habilita los prints para el debug
-#define TAG "MQTT_GESTOR" //Nombre del modulo
+#define MQTT_BUF_SIZE 256   //Tamany del buffer MQTT
+#define UART_BUF_SIZE 1024  //Tamany del buffer UART
+#define MAX_TOPIC_LEN 32    //Tamaño maxim del topic
+#define DEBUG false         //Mode debug
+#define TAG "MQTT_GESTOR"   //Nom del mòdul
 
-//Estados de la maquina de estados
 typedef enum {
     POWERON,
     START_TX,
@@ -80,20 +79,18 @@ typedef enum {
     PAYLOAD_TX_2,
     PAYLOAD_RX_2,
     PUBLISH_TX,
-    PUBLISH_RX,
+    PUBLISH_RX
 } sim_s;
 
-//Variables static
-static char buffer_mqtt[MQTT_BUF_SIZE]; // Conetenedor del ultimo mensaje MQTT recibido
-static sim_s sim_state = POWERON; //Estado de la maquina de estados
-static char write_mqtt_topic[MAX_TOPIC_LEN];  //Buffer para almacenar el topic tx
-static char write_mqtt_message[MQTT_BUF_SIZE];  //Buffer para almacenar el mensaje tx
-static bool OK_FLAG = false; //Indica que el ultimo mensaje contenia OK
-static bool ERROR_FLAG = false; //Indica que el ultimo mensaje contenia ERROR
-static bool CLOST_FLAG = false; //Indica que el ultimo mensaje contenia CONNECTION_LOST
-static bool INPUT_FLAG = false; //Indica que el ultimo mensaje espera un input
+static char buffer_mqtt[MQTT_BUF_SIZE];         //Conetenedor de l'ultim missatge MQTT rebut
+static sim_s sim_state = POWERON;               //Estat de la maquina de estats
+static char write_mqtt_topic[MAX_TOPIC_LEN];    //Buffer per emmagatzemar el topic tx
+static char write_mqtt_message[MQTT_BUF_SIZE];  //Buffer per emmagatzemar el missatge tx
+static bool OK_FLAG = false;                    //Indica que l'ultim missatge contenia OK
+static bool ERROR_FLAG = false;                 //Indica que l'ultim missatge contenia ERROR
+static bool CLOST_FLAG = false;                 //Indica que l'ultim missatge contenia CONNECTION_LOST
+static bool INPUT_FLAG = false;                 //Indica que l'ultim missatge espera un input
 
-//Funciones de procesamiento de la recepcion
 bool contains_ERROR(const char *str) {
     return strstr(str, "ERROR") != NULL;
 }
@@ -111,20 +108,17 @@ bool contains_INPUT(const char *str){
 }
 
 void contains_MQTT(char *buffer_uart) {
-    //Comprueba si se ha recibido un mensaje del mqtt y lo copia
     const char *start = strstr(buffer_uart, "+CMQTTRXPAYLOAD");
     if (start) {
-        start = strchr(start, '\n'); // Avanzar al siguiente salto de línea
-        start++; // Mover a la primera letra del mensaje
+        start = strchr(start, '\n'); 
+        start++; 
         const char *end = strstr(start, "\n+CMQTTRXEND");
         size_t len = end - start;
         strncpy(buffer_mqtt, start, len);
-        //output[len] = '\0'; // Asegurar terminación
     }
 }
 
 void read_AT_processor(void) {
-    //Se comprueba el buffer de recepcion uart y se actualizan las variables de estado segun lo que contenga
     char buffer_uart[UART_BUF_SIZE];
     read_AT(buffer_uart);
     contains_MQTT(buffer_uart);
@@ -134,7 +128,6 @@ void read_AT_processor(void) {
     INPUT_FLAG = contains_INPUT(buffer_uart);
 }
 
-//Maquina de estados
 void sim_state_machine(){
     if (DEBUG){
         ESP_LOGI(TAG, "Estado actual: %d\n", sim_state);
@@ -336,7 +329,7 @@ void sim_state_machine(){
             if (OK_FLAG){ 
                 sim_state = TXENABLED;
                 if (DEBUG){
-                    ESP_LOGI(TAG, "Comunicacion Completada");
+                    ESP_LOGI(TAG, "Comunicació completada");
                 }
             }
             else if (ERROR_FLAG) sim_state = SUBSCRIBE_TX;
@@ -404,22 +397,17 @@ void sim_state_machine(){
     }
 }
 
-//Funciones para que otros modulos puedan realizar las comunicaciones mqtt
 bool read_MQTT_available(void){
-    //Funcion para revisar si hay algo para leer
     return (strlen(buffer_mqtt) > 0);
 }
 
 void read_MQTT(char* message){
-    //printf("rx_mqtt antes: %s", buffer_mqtt);
     strncpy(message, buffer_mqtt, MAX_TOPIC_LEN - 1);
     message[MAX_TOPIC_LEN - 1] = '\0';
     buffer_mqtt[0] = '\0';
-    //printf("rx_mqtt despues: %s", buffer_mqtt);
 }
 
 void write_MQTT(const char* topic, const char* message) {
-    //Funcion bloqueante, espera a que sea possible enviar y que prepara el topic y el payload tx para
     while (sim_state != TXENABLED) {}
     sim_state = TOPIC_TX;
     strncpy(write_mqtt_topic, topic, MAX_TOPIC_LEN - 1);

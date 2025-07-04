@@ -23,19 +23,3 @@ void print_sniffing(twai_message_t message){
     printf(TERMINATOR);
 }
 
-/*
-void app_main(void) {
-    vTaskDelay(pdMS_TO_TICKS(5000)); // Espera inicial
-    twai_message_t message1 = {
-    .identifier = 13,
-    .rtr = 0,
-    .extd = 0,
-    .data_length_code = 5,
-    .data = {1, 2, 3, 4, 5}
-    };
-    while (true) {
-        print_sniffing(message1);
-        vTaskDelay(pdMS_TO_TICKS(100)); 
-    }
-}
-*/

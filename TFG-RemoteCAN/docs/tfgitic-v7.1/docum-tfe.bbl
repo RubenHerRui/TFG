@@ -1,0 +1,1456 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{github_candrive}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=f4ace0b36ef0f522d85710cd2f6cb2d1}{%
+           family={Adamtheone},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{f4ace0b36ef0f522d85710cd2f6cb2d1}
+      \strng{fullhash}{f4ace0b36ef0f522d85710cd2f6cb2d1}
+      \strng{bibnamehash}{f4ace0b36ef0f522d85710cd2f6cb2d1}
+      \strng{editorbibnamehash}{f4ace0b36ef0f522d85710cd2f6cb2d1}
+      \strng{editornamehash}{f4ace0b36ef0f522d85710cd2f6cb2d1}
+      \strng{editorfullhash}{f4ace0b36ef0f522d85710cd2f6cb2d1}
+      \field{labelalpha}{Ada23}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{canDrive Project}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://github.com/adamtheone/canDrive
+      \endverb
+      \verb{url}
+      \verb https://github.com/adamtheone/canDrive
+      \endverb
+      \warn{\item online entry 'github_candrive' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{adslzone_apn}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=18eb6c2f2b7fc2b1945f0da34f82e439}{%
+           family={ADSLZone},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {spanish}%
+      }
+      \strng{namehash}{18eb6c2f2b7fc2b1945f0da34f82e439}
+      \strng{fullhash}{18eb6c2f2b7fc2b1945f0da34f82e439}
+      \strng{bibnamehash}{18eb6c2f2b7fc2b1945f0da34f82e439}
+      \strng{editorbibnamehash}{18eb6c2f2b7fc2b1945f0da34f82e439}
+      \strng{editornamehash}{18eb6c2f2b7fc2b1945f0da34f82e439}
+      \strng{editorfullhash}{18eb6c2f2b7fc2b1945f0da34f82e439}
+      \field{labelalpha}{ADS23}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{APN: qué es y cómo configurarlo en datos móviles}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.adslzone.net/operadores/en-detalle/apn-datos-moviles/
+      \endverb
+      \verb{url}
+      \verb https://www.adslzone.net/operadores/en-detalle/apn-datos-moviles/
+      \endverb
+      \warn{\item online entry 'adslzone_apn' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{can_cia_xl}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=e11d0e6bb4316ab174ab5287627b27f4}{%
+           family={Automation},
+           familyi={A\bibinitperiod},
+           given={CAN},
+           giveni={C\bibinitperiod},
+           prefix={in},
+           prefixi={i\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e11d0e6bb4316ab174ab5287627b27f4}
+      \strng{fullhash}{e11d0e6bb4316ab174ab5287627b27f4}
+      \strng{bibnamehash}{e11d0e6bb4316ab174ab5287627b27f4}
+      \strng{editorbibnamehash}{e11d0e6bb4316ab174ab5287627b27f4}
+      \strng{editornamehash}{e11d0e6bb4316ab174ab5287627b27f4}
+      \strng{editorfullhash}{e11d0e6bb4316ab174ab5287627b27f4}
+      \field{labelalpha}{Aut23}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{CAN XL Information}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www2.can-cia.org/canxl
+      \endverb
+      \verb{url}
+      \verb https://www2.can-cia.org/canxl
+      \endverb
+      \warn{\item online entry 'can_cia_xl' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{softing_protocols}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=5220763eedfc58706acfda745af4a5c6}{%
+           family={Automotive},
+           familyi={A\bibinitperiod},
+           given={Softing},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{5220763eedfc58706acfda745af4a5c6}
+      \strng{fullhash}{5220763eedfc58706acfda745af4a5c6}
+      \strng{bibnamehash}{5220763eedfc58706acfda745af4a5c6}
+      \strng{editorbibnamehash}{5220763eedfc58706acfda745af4a5c6}
+      \strng{editornamehash}{5220763eedfc58706acfda745af4a5c6}
+      \strng{editorfullhash}{5220763eedfc58706acfda745af4a5c6}
+      \field{labelalpha}{Aut23}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Automotive Bus Systems}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://automotive.softing.com/standards/bus-systems.html
+      \endverb
+      \verb{url}
+      \verb https://automotive.softing.com/standards/bus-systems.html
+      \endverb
+      \warn{\item online entry 'softing_protocols' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{espboards_power}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=f3004b6aba62dad9c24118d8b875ab76}{%
+           family={Boards},
+           familyi={B\bibinitperiod},
+           given={ESP},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{f3004b6aba62dad9c24118d8b875ab76}
+      \strng{fullhash}{f3004b6aba62dad9c24118d8b875ab76}
+      \strng{bibnamehash}{f3004b6aba62dad9c24118d8b875ab76}
+      \strng{editorbibnamehash}{f3004b6aba62dad9c24118d8b875ab76}
+      \strng{editornamehash}{f3004b6aba62dad9c24118d8b875ab76}
+      \strng{editorfullhash}{f3004b6aba62dad9c24118d8b875ab76}
+      \field{labelalpha}{Boa22}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Powering ESP32 from 12V Power Source}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.espboards.dev/blog/powering-esp32-from-12v-power-source/
+      \endverb
+      \verb{url}
+      \verb https://www.espboards.dev/blog/powering-esp32-from-12v-power-source/
+      \endverb
+      \warn{\item online entry 'espboards_power' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{datascientest_pdp}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=1139fbe627141f4b585f68be54fcf6ae}{%
+           family={DataScientest},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{1139fbe627141f4b585f68be54fcf6ae}
+      \strng{fullhash}{1139fbe627141f4b585f68be54fcf6ae}
+      \strng{bibnamehash}{1139fbe627141f4b585f68be54fcf6ae}
+      \strng{editorbibnamehash}{1139fbe627141f4b585f68be54fcf6ae}
+      \strng{editornamehash}{1139fbe627141f4b585f68be54fcf6ae}
+      \strng{editorfullhash}{1139fbe627141f4b585f68be54fcf6ae}
+      \field{labelalpha}{Dat22}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{All about Packet Data Protocol}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://datascientest.com/en/all-about-packet-data-protocol
+      \endverb
+      \verb{url}
+      \verb https://datascientest.com/en/all-about-packet-data-protocol
+      \endverb
+      \warn{\item online entry 'datascientest_pdp' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{csselectronics_can}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=f1aa501fb0888c871c7fdc7e7e6c211a}{%
+           family={Electronics},
+           familyi={E\bibinitperiod},
+           given={CSS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{f1aa501fb0888c871c7fdc7e7e6c211a}
+      \strng{fullhash}{f1aa501fb0888c871c7fdc7e7e6c211a}
+      \strng{bibnamehash}{f1aa501fb0888c871c7fdc7e7e6c211a}
+      \strng{editorbibnamehash}{f1aa501fb0888c871c7fdc7e7e6c211a}
+      \strng{editornamehash}{f1aa501fb0888c871c7fdc7e7e6c211a}
+      \strng{editorfullhash}{f1aa501fb0888c871c7fdc7e7e6c211a}
+      \field{labelalpha}{Ele23}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{CAN Bus Explained - A Simple Intro}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.csselectronics.com/pages/can-bus-intros-tutorials
+      \endverb
+      \verb{url}
+      \verb https://www.csselectronics.com/pages/can-bus-intros-tutorials
+      \endverb
+      \warn{\item online entry 'csselectronics_can' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{embien_obd2}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=2e6785a547d16d89aefa3a44a43de3ce}{%
+           family={Embien},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{2e6785a547d16d89aefa3a44a43de3ce}
+      \strng{fullhash}{2e6785a547d16d89aefa3a44a43de3ce}
+      \strng{bibnamehash}{2e6785a547d16d89aefa3a44a43de3ce}
+      \strng{editorbibnamehash}{2e6785a547d16d89aefa3a44a43de3ce}
+      \strng{editornamehash}{2e6785a547d16d89aefa3a44a43de3ce}
+      \strng{editorfullhash}{2e6785a547d16d89aefa3a44a43de3ce}
+      \field{labelalpha}{Emb22}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{OBD-II Comprehensive Guide}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.embien.com/automotive-insights/on-board-diagnostics-a-comprehensive-guide-to-obd-2-protocol
+      \endverb
+      \verb{url}
+      \verb https://www.embien.com/automotive-insights/on-board-diagnostics-a-comprehensive-guide-to-obd-2-protocol
+      \endverb
+      \warn{\item online entry 'embien_obd2' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{crc_tool}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=b46039c66c9bbeefb085ac9a09ab81b3}{%
+           family={EMN178},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{b46039c66c9bbeefb085ac9a09ab81b3}
+      \strng{fullhash}{b46039c66c9bbeefb085ac9a09ab81b3}
+      \strng{bibnamehash}{b46039c66c9bbeefb085ac9a09ab81b3}
+      \strng{editorbibnamehash}{b46039c66c9bbeefb085ac9a09ab81b3}
+      \strng{editornamehash}{b46039c66c9bbeefb085ac9a09ab81b3}
+      \strng{editorfullhash}{b46039c66c9bbeefb085ac9a09ab81b3}
+      \field{labelalpha}{EMN23}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Online CRC Calculator}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://emn178.github.io/online-tools/crc/
+      \endverb
+      \verb{url}
+      \verb https://emn178.github.io/online-tools/crc/
+      \endverb
+      \warn{\item online entry 'crc_tool' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{emotive_isotp}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=dca7dbba50f7a96f99d1e878487daf4d}{%
+           family={emotive},
+           familyi={e\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {german}%
+      }
+      \strng{namehash}{dca7dbba50f7a96f99d1e878487daf4d}
+      \strng{fullhash}{dca7dbba50f7a96f99d1e878487daf4d}
+      \strng{bibnamehash}{dca7dbba50f7a96f99d1e878487daf4d}
+      \strng{editorbibnamehash}{dca7dbba50f7a96f99d1e878487daf4d}
+      \strng{editornamehash}{dca7dbba50f7a96f99d1e878487daf4d}
+      \strng{editorfullhash}{dca7dbba50f7a96f99d1e878487daf4d}
+      \field{labelalpha}{emo21}
+      \field{sortinit}{e}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{ISOTP Protocol}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.emotive.de/wiki/index.php?title=ISOTP
+      \endverb
+      \verb{url}
+      \verb https://www.emotive.de/wiki/index.php?title=ISOTP
+      \endverb
+      \warn{\item online entry 'emotive_isotp' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{lastminute_can}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=ef97a4a3b86b6cf9c4c6579f104bdb13}{%
+           family={Engineers},
+           familyi={E\bibinitperiod},
+           given={Last\bibnamedelima Minute},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{ef97a4a3b86b6cf9c4c6579f104bdb13}
+      \strng{fullhash}{ef97a4a3b86b6cf9c4c6579f104bdb13}
+      \strng{bibnamehash}{ef97a4a3b86b6cf9c4c6579f104bdb13}
+      \strng{editorbibnamehash}{ef97a4a3b86b6cf9c4c6579f104bdb13}
+      \strng{editornamehash}{ef97a4a3b86b6cf9c4c6579f104bdb13}
+      \strng{editorfullhash}{ef97a4a3b86b6cf9c4c6579f104bdb13}
+      \field{labelalpha}{Eng23}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{ESP32 CAN Bus Tutorial}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://lastminuteengineers.com/esp32-can-bus-tutorial/
+      \endverb
+      \verb{url}
+      \verb https://lastminuteengineers.com/esp32-can-bus-tutorial/
+      \endverb
+      \warn{\item online entry 'lastminute_can' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{flask_mqtt_docs}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=f046fa59391841fa04221c3a3af0fb99}{%
+           family={Flask-MQTT},
+           familyi={F\bibinithyphendelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{f046fa59391841fa04221c3a3af0fb99}
+      \strng{fullhash}{f046fa59391841fa04221c3a3af0fb99}
+      \strng{bibnamehash}{f046fa59391841fa04221c3a3af0fb99}
+      \strng{editorbibnamehash}{f046fa59391841fa04221c3a3af0fb99}
+      \strng{editornamehash}{f046fa59391841fa04221c3a3af0fb99}
+      \strng{editorfullhash}{f046fa59391841fa04221c3a3af0fb99}
+      \field{labelalpha}{Fla23}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Flask-MQTT Documentation}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://flask-mqtt.readthedocs.io/en/latest/usage.html
+      \endverb
+      \verb{url}
+      \verb https://flask-mqtt.readthedocs.io/en/latest/usage.html
+      \endverb
+      \warn{\item online entry 'flask_mqtt_docs' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{mosquitto}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=c29e9dd4709b3acadeef395a1b0997ed}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={Eclipse},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{c29e9dd4709b3acadeef395a1b0997ed}
+      \strng{fullhash}{c29e9dd4709b3acadeef395a1b0997ed}
+      \strng{bibnamehash}{c29e9dd4709b3acadeef395a1b0997ed}
+      \strng{editorbibnamehash}{c29e9dd4709b3acadeef395a1b0997ed}
+      \strng{editornamehash}{c29e9dd4709b3acadeef395a1b0997ed}
+      \strng{editorfullhash}{c29e9dd4709b3acadeef395a1b0997ed}
+      \field{labelalpha}{Fou23}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Mosquitto Documentation}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://mosquitto.org/documentation/
+      \endverb
+      \verb{url}
+      \verb https://mosquitto.org/documentation/
+      \endverb
+      \warn{\item online entry 'mosquitto' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{getbyte_can_timing}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e84ed22c0cb8deba211a6d5d72fb27b5}{%
+           family={GetToByte},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e84ed22c0cb8deba211a6d5d72fb27b5}
+      \strng{fullhash}{e84ed22c0cb8deba211a6d5d72fb27b5}
+      \strng{bibnamehash}{e84ed22c0cb8deba211a6d5d72fb27b5}
+      \strng{authorbibnamehash}{e84ed22c0cb8deba211a6d5d72fb27b5}
+      \strng{authornamehash}{e84ed22c0cb8deba211a6d5d72fb27b5}
+      \strng{authorfullhash}{e84ed22c0cb8deba211a6d5d72fb27b5}
+      \field{labelalpha}{Get23}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CAN Bus Bit Timing Explained}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://gettobyte.com/can-bit-timing-explained/
+      \endverb
+      \verb{url}
+      \verb https://gettobyte.com/can-bit-timing-explained/
+      \endverb
+      \warn{\item online entry 'getbyte_can_timing' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{lilygo_sim7670g}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=321cfcf8a13328141229577989812da5}{%
+           family={Hubtronics},
+           familyi={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{321cfcf8a13328141229577989812da5}
+      \strng{fullhash}{321cfcf8a13328141229577989812da5}
+      \strng{bibnamehash}{321cfcf8a13328141229577989812da5}
+      \strng{authorbibnamehash}{321cfcf8a13328141229577989812da5}
+      \strng{authornamehash}{321cfcf8a13328141229577989812da5}
+      \strng{authorfullhash}{321cfcf8a13328141229577989812da5}
+      \field{labelalpha}{Hub23}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LilyGO T-SIM7670G-S3-H707 Technical Specifications}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://hubtronics.in/lilygo-t-sim7670g-s3-h707
+      \endverb
+      \verb{url}
+      \verb https://hubtronics.in/lilygo-t-sim7670g-s3-h707
+      \endverb
+      \warn{\item manual entry 'lilygo_sim7670g' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{ti_sn65hvd230}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={Texas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{editorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{editornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{editorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \field{labelalpha}{Ins22}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{SN65HVD230 CAN Transceiver Datasheet}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf
+      \endverb
+      \warn{\item online entry 'ti_sn65hvd230' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{kicad}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=65a497b7130fb0033c9aa6850ba3aedb}{%
+           family={KiCad},
+           familyi={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{65a497b7130fb0033c9aa6850ba3aedb}
+      \strng{fullhash}{65a497b7130fb0033c9aa6850ba3aedb}
+      \strng{bibnamehash}{65a497b7130fb0033c9aa6850ba3aedb}
+      \strng{editorbibnamehash}{65a497b7130fb0033c9aa6850ba3aedb}
+      \strng{editornamehash}{65a497b7130fb0033c9aa6850ba3aedb}
+      \strng{editorfullhash}{65a497b7130fb0033c9aa6850ba3aedb}
+      \field{labelalpha}{KiC23}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{KiCad EDA}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.kicad.org/
+      \endverb
+      \verb{url}
+      \verb https://www.kicad.org/
+      \endverb
+      \warn{\item online entry 'kicad' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{can_vehicle_systems}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b01dc20cb7ee20dc226c559c818eda8f}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={M.\bibnamedelimi Tariq},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=2782b233ae5707c53b7c8b7361d4d0da}{%
+           family={Lobiyal},
+           familyi={L\bibinitperiod},
+           given={D.\bibnamedelimi K.},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=128292b797671c78b6299d4f5c2e7095}{%
+           family={Qayyum},
+           familyi={Q\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{e5d8559e84cd31e0abd00a217afeb67e}
+      \strng{fullhash}{e5d8559e84cd31e0abd00a217afeb67e}
+      \strng{bibnamehash}{e5d8559e84cd31e0abd00a217afeb67e}
+      \strng{authorbibnamehash}{e5d8559e84cd31e0abd00a217afeb67e}
+      \strng{authornamehash}{e5d8559e84cd31e0abd00a217afeb67e}
+      \strng{authorfullhash}{e5d8559e84cd31e0abd00a217afeb67e}
+      \field{labelalpha}{KLQ20}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{17}
+      \field{title}{Performance Evaluation of {CAN} Bus Protocol for In-Vehicle Networking}
+      \field{volume}{20}
+      \field{year}{2020}
+      \field{pages}{4900}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s20174900
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/20/17/4900
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/20/17/4900
+      \endverb
+      \warn{\item article entry 'can_vehicle_systems' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{mermaid}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=ee9b155b26d2df2a2c103fae24e71222}{%
+           family={Mermaid},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{ee9b155b26d2df2a2c103fae24e71222}
+      \strng{fullhash}{ee9b155b26d2df2a2c103fae24e71222}
+      \strng{bibnamehash}{ee9b155b26d2df2a2c103fae24e71222}
+      \strng{editorbibnamehash}{ee9b155b26d2df2a2c103fae24e71222}
+      \strng{editornamehash}{ee9b155b26d2df2a2c103fae24e71222}
+      \strng{editorfullhash}{ee9b155b26d2df2a2c103fae24e71222}
+      \field{labelalpha}{Mer23}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Mermaid Documentation}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://mermaid.js.org/
+      \endverb
+      \verb{url}
+      \verb https://mermaid.js.org/
+      \endverb
+      \warn{\item online entry 'mermaid' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{oasis_mqtt}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=6ec60ab9ce327f5a12fbab109e691c73}{%
+           family={OASIS},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{6ec60ab9ce327f5a12fbab109e691c73}
+      \strng{fullhash}{6ec60ab9ce327f5a12fbab109e691c73}
+      \strng{bibnamehash}{6ec60ab9ce327f5a12fbab109e691c73}
+      \strng{editorbibnamehash}{6ec60ab9ce327f5a12fbab109e691c73}
+      \strng{editornamehash}{6ec60ab9ce327f5a12fbab109e691c73}
+      \strng{editorfullhash}{6ec60ab9ce327f5a12fbab109e691c73}
+      \field{labelalpha}{OAS16}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{MQTT Protocol Specification}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.pdf
+      \endverb
+      \verb{url}
+      \verb https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.pdf
+      \endverb
+      \warn{\item online entry 'oasis_mqtt' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{onomondo_at}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=d540250f3dd251737a9ee7e44b1b3b02}{%
+           family={Onomondo},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{d540250f3dd251737a9ee7e44b1b3b02}
+      \strng{fullhash}{d540250f3dd251737a9ee7e44b1b3b02}
+      \strng{bibnamehash}{d540250f3dd251737a9ee7e44b1b3b02}
+      \strng{editorbibnamehash}{d540250f3dd251737a9ee7e44b1b3b02}
+      \strng{editornamehash}{d540250f3dd251737a9ee7e44b1b3b02}
+      \strng{editorfullhash}{d540250f3dd251737a9ee7e44b1b3b02}
+      \field{labelalpha}{Ono22}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{AT Commands Guide}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://onomondo.com/blog/at-commands-guide-for-iot-devices/
+      \endverb
+      \verb{url}
+      \verb https://onomondo.com/blog/at-commands-guide-for-iot-devices/
+      \endverb
+      \warn{\item online entry 'onomondo_at' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{openeecu_seedkey}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=1b86a54a4d27dad5aa776b749c199dae}{%
+           family={OpenECU},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{1b86a54a4d27dad5aa776b749c199dae}
+      \strng{fullhash}{1b86a54a4d27dad5aa776b749c199dae}
+      \strng{bibnamehash}{1b86a54a4d27dad5aa776b749c199dae}
+      \strng{editorbibnamehash}{1b86a54a4d27dad5aa776b749c199dae}
+      \strng{editornamehash}{1b86a54a4d27dad5aa776b749c199dae}
+      \strng{editorfullhash}{1b86a54a4d27dad5aa776b749c199dae}
+      \field{labelalpha}{Ope21}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Seed \& Key Algorithm Help}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://openecu.com/openecu-calibrator-help-seed-key/
+      \endverb
+      \verb{url}
+      \verb https://openecu.com/openecu-calibrator-help-seed-key/
+      \endverb
+      \warn{\item online entry 'openeecu_seedkey' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{platformio}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=23138c559a24c119db84660a0a2177b3}{%
+           family={PlatformIO},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{23138c559a24c119db84660a0a2177b3}
+      \strng{fullhash}{23138c559a24c119db84660a0a2177b3}
+      \strng{bibnamehash}{23138c559a24c119db84660a0a2177b3}
+      \strng{editorbibnamehash}{23138c559a24c119db84660a0a2177b3}
+      \strng{editornamehash}{23138c559a24c119db84660a0a2177b3}
+      \strng{editorfullhash}{23138c559a24c119db84660a0a2177b3}
+      \field{labelalpha}{Pla23}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{PlatformIO Documentation}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://platformio.org/
+      \endverb
+      \verb{url}
+      \verb https://platformio.org/
+      \endverb
+      \warn{\item online entry 'platformio' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{flask_docs}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=f4ce5f0c86b5e556d86b2a917c5c42fe}{%
+           family={Projects},
+           familyi={P\bibinitperiod},
+           given={Pallets},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{fullhash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{bibnamehash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{editorbibnamehash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{editornamehash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{editorfullhash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \field{labelalpha}{Pro23}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Flask Documentation (1.1.x)}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://flask.palletsprojects.com/en/stable/
+      \endverb
+      \verb{url}
+      \verb https://flask.palletsprojects.com/en/stable/
+      \endverb
+      \warn{\item online entry 'flask_docs' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{github_tfg}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=406569ecb1c5d3d3ceae6cca3e93572b}{%
+           family={RubenHerRui},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{406569ecb1c5d3d3ceae6cca3e93572b}
+      \strng{fullhash}{406569ecb1c5d3d3ceae6cca3e93572b}
+      \strng{bibnamehash}{406569ecb1c5d3d3ceae6cca3e93572b}
+      \strng{editorbibnamehash}{406569ecb1c5d3d3ceae6cca3e93572b}
+      \strng{editornamehash}{406569ecb1c5d3d3ceae6cca3e93572b}
+      \strng{editorfullhash}{406569ecb1c5d3d3ceae6cca3e93572b}
+      \field{labelalpha}{Rub23}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{TFG Repository}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://github.com/RubenHerRui/TFG
+      \endverb
+      \verb{url}
+      \verb https://github.com/RubenHerRui/TFG
+      \endverb
+      \warn{\item online entry 'github_tfg' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{simcom_mqtt}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=d67a90f698b5ab192347633b54846e66}{%
+           family={SIMCom},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{fullhash}{d67a90f698b5ab192347633b54846e66}
+      \strng{bibnamehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{editorbibnamehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{editornamehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{editorfullhash}{d67a90f698b5ab192347633b54846e66}
+      \field{extraname}{1}
+      \field{labelalpha}{SIM21}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{A7600 Series MQTT Application Note}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://simcomturkiye.com/pdf/4G/A7600E/A7600_Series_MQTT(S)_Application_Note_V1.00.pdf
+      \endverb
+      \verb{url}
+      \verb https://simcomturkiye.com/pdf/4G/A7600E/A7600_Series_MQTT(S)_Application_Note_V1.00.pdf
+      \endverb
+      \warn{\item online entry 'simcom_mqtt' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{simcom_a7670}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=d67a90f698b5ab192347633b54846e66}{%
+           family={SIMCom},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{fullhash}{d67a90f698b5ab192347633b54846e66}
+      \strng{bibnamehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{editorbibnamehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{editornamehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{editorfullhash}{d67a90f698b5ab192347633b54846e66}
+      \field{extraname}{2}
+      \field{labelalpha}{SIM21}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{A7670 Series Hardware Design}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://nostris.ee/pdf/A7670%20Series%20Hardware%20Design_V1.00.pdf
+      \endverb
+      \verb{url}
+      \verb https://nostris.ee/pdf/A7670%20Series%20Hardware%20Design_V1.00.pdf
+      \endverb
+      \warn{\item online entry 'simcom_a7670' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{simcom_at}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=d67a90f698b5ab192347633b54846e66}{%
+           family={SIMCom},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{fullhash}{d67a90f698b5ab192347633b54846e66}
+      \strng{bibnamehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{editorbibnamehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{editornamehash}{d67a90f698b5ab192347633b54846e66}
+      \strng{editorfullhash}{d67a90f698b5ab192347633b54846e66}
+      \field{extraname}{3}
+      \field{labelalpha}{SIM21}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{SIM767XX Series AT Command Manual}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://files.waveshare.com/wiki/SIM7670G-LTE-Cat-1-GNSS-HAT/SIM767XX_Series_AT_Command_Manual_V1.01.pdf
+      \endverb
+      \verb{url}
+      \verb https://files.waveshare.com/wiki/SIM7670G-LTE-Cat-1-GNSS-HAT/SIM767XX_Series_AT_Command_Manual_V1.01.pdf
+      \endverb
+      \warn{\item online entry 'simcom_at' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{sparkfun_obd2}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=745fa0cbdb15cfd5340d89b422a224ba}{%
+           family={SparkFun},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{745fa0cbdb15cfd5340d89b422a224ba}
+      \strng{fullhash}{745fa0cbdb15cfd5340d89b422a224ba}
+      \strng{bibnamehash}{745fa0cbdb15cfd5340d89b422a224ba}
+      \strng{editorbibnamehash}{745fa0cbdb15cfd5340d89b422a224ba}
+      \strng{editornamehash}{745fa0cbdb15cfd5340d89b422a224ba}
+      \strng{editorfullhash}{745fa0cbdb15cfd5340d89b422a224ba}
+      \field{labelalpha}{Spa23}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{OBD-II Protocols}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://learn.sparkfun.com/tutorials/getting-started-with-obd-ii/obd-ii-protocols
+      \endverb
+      \verb{url}
+      \verb https://learn.sparkfun.com/tutorials/getting-started-with-obd-ii/obd-ii-protocols
+      \endverb
+      \warn{\item online entry 'sparkfun_obd2' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{espressif_esp32s3}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=b1d5d0040be4721ebd66cd10ec68502c}{%
+           family={Systems},
+           familyi={S\bibinitperiod},
+           given={Espressif},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{fullhash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{bibnamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{editorbibnamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{editornamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{editorfullhash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \field{extraname}{1}
+      \field{labelalpha}{Sys22}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{ESP32-S3-WROOM-1 Datasheet}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+      \endverb
+      \warn{\item online entry 'espressif_esp32s3' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{freertos}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=b1d5d0040be4721ebd66cd10ec68502c}{%
+           family={Systems},
+           familyi={S\bibinitperiod},
+           given={Espressif},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{fullhash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{bibnamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{editorbibnamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{editornamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{editorfullhash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \field{extraname}{2}
+      \field{labelalpha}{Sys23}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{FreeRTOS API Reference}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/freertos.html
+      \endverb
+      \verb{url}
+      \verb https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/freertos.html
+      \endverb
+      \warn{\item online entry 'freertos' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{espressif_docs}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=b1d5d0040be4721ebd66cd10ec68502c}{%
+           family={Systems},
+           familyi={S\bibinitperiod},
+           given={Espressif},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{fullhash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{bibnamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{editorbibnamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{editornamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{editorfullhash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \field{extraname}{3}
+      \field{labelalpha}{Sys23}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Technical Documents}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.espressif.com/en/support/documents/technical-documents
+      \endverb
+      \verb{url}
+      \verb https://www.espressif.com/en/support/documents/technical-documents
+      \endverb
+      \warn{\item online entry 'espressif_docs' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{espressif_twai}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=b1d5d0040be4721ebd66cd10ec68502c}{%
+           family={Systems},
+           familyi={S\bibinitperiod},
+           given={Espressif},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{fullhash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{bibnamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{editorbibnamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{editornamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{editorfullhash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \field{extraname}{4}
+      \field{labelalpha}{Sys23}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{TWAI (CAN) Controller API Reference}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/twai.html
+      \endverb
+      \verb{url}
+      \verb https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/twai.html
+      \endverb
+      \warn{\item online entry 'espressif_twai' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{espressif_uart}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=b1d5d0040be4721ebd66cd10ec68502c}{%
+           family={Systems},
+           familyi={S\bibinitperiod},
+           given={Espressif},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{fullhash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{bibnamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{editorbibnamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{editornamehash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \strng{editorfullhash}{b1d5d0040be4721ebd66cd10ec68502c}
+      \field{extraname}{5}
+      \field{labelalpha}{Sys23}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extraalpha}{4}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{UART Communication}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/uart.html
+      \endverb
+      \verb{url}
+      \verb https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/uart.html
+      \endverb
+      \warn{\item online entry 'espressif_uart' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{all_datasheet_mp1584en}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=078df309f924f0d45f69655a2f565955}{%
+           family={Systems)},
+           familyi={S\bibinitperiod},
+           given={MPS\bibnamedelimb (Monolithic\bibnamedelima Power},
+           giveni={M\bibinitperiod\bibinitdelim (\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{078df309f924f0d45f69655a2f565955}
+      \strng{fullhash}{078df309f924f0d45f69655a2f565955}
+      \strng{bibnamehash}{078df309f924f0d45f69655a2f565955}
+      \strng{editorbibnamehash}{078df309f924f0d45f69655a2f565955}
+      \strng{editornamehash}{078df309f924f0d45f69655a2f565955}
+      \strng{editorfullhash}{078df309f924f0d45f69655a2f565955}
+      \field{labelalpha}{Sys23}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extraalpha}{5}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{MP1584EN Datasheet - 3A, 1.5MHz, 28V Step-Down Converter}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.alldatasheet.com/html-pdf/551593/MPS/MP1584EN/55/1/MP1584EN.html
+      \endverb
+      \verb{url}
+      \verb https://www.alldatasheet.com/html-pdf/551593/MPS/MP1584EN/55/1/MP1584EN.html
+      \endverb
+      \warn{\item online entry 'all_datasheet_mp1584en' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{andry_can_frame}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=fa4aebdad6edadf7a9009ad4a87b11f6}{%
+           family={Tino},
+           familyi={T\bibinitperiod},
+           given={Andry},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{fa4aebdad6edadf7a9009ad4a87b11f6}
+      \strng{fullhash}{fa4aebdad6edadf7a9009ad4a87b11f6}
+      \strng{bibnamehash}{fa4aebdad6edadf7a9009ad4a87b11f6}
+      \strng{editorbibnamehash}{fa4aebdad6edadf7a9009ad4a87b11f6}
+      \strng{editornamehash}{fa4aebdad6edadf7a9009ad4a87b11f6}
+      \strng{editorfullhash}{fa4aebdad6edadf7a9009ad4a87b11f6}
+      \field{labelalpha}{Tin20}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{CAN Frame Basics}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://andry-tino.gitbooks.io/basics-on-industrial-protocols/content/can/frame.html
+      \endverb
+      \verb{url}
+      \verb https://andry-tino.gitbooks.io/basics-on-industrial-protocols/content/can/frame.html
+      \endverb
+      \warn{\item online entry 'andry_can_frame' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{openvehicles}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=dfe1a6bd0b1e1d6ae0f654240f07d721}{%
+           family={Vehicles},
+           familyi={V\bibinitperiod},
+           given={Open},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{dfe1a6bd0b1e1d6ae0f654240f07d721}
+      \strng{fullhash}{dfe1a6bd0b1e1d6ae0f654240f07d721}
+      \strng{bibnamehash}{dfe1a6bd0b1e1d6ae0f654240f07d721}
+      \strng{editorbibnamehash}{dfe1a6bd0b1e1d6ae0f654240f07d721}
+      \strng{editornamehash}{dfe1a6bd0b1e1d6ae0f654240f07d721}
+      \strng{editorfullhash}{dfe1a6bd0b1e1d6ae0f654240f07d721}
+      \field{labelalpha}{Veh23}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Open Vehicles Project}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.openvehicles.com/
+      \endverb
+      \verb{url}
+      \verb https://www.openvehicles.com/
+      \endverb
+      \warn{\item online entry 'openvehicles' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{wikipedia_can}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{1}
+      \field{labelalpha}{Wik23}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{CAN Bus}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/CAN_bus
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/CAN_bus
+      \endverb
+      \warn{\item online entry 'wikipedia_can' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{wikipedia_gsm}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{2}
+      \field{labelalpha}{Wik23}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{GSM}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/GSM
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/GSM
+      \endverb
+      \warn{\item online entry 'wikipedia_gsm' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{wikipedia_isotp}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{3}
+      \field{labelalpha}{Wik23}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{ISO 15765-2}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/ISO_15765-2
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/ISO_15765-2
+      \endverb
+      \warn{\item online entry 'wikipedia_isotp' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{wikipedia_mqtt}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{4}
+      \field{labelalpha}{Wik23}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extraalpha}{4}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{MQTT}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/MQTT
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/MQTT
+      \endverb
+      \warn{\item online entry 'wikipedia_mqtt' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{wikipedia_obd2}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{5}
+      \field{labelalpha}{Wik23}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extraalpha}{5}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{OBD-II PIDs}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/OBD-II_PIDs
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/OBD-II_PIDs
+      \endverb
+      \warn{\item online entry 'wikipedia_obd2' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{lilygo_t76xx}{online}{}
+      \name{author}{1}{}{%
+        {{hash=354fd5e27324b921797332e98c555d41}{%
+           family={Xinyuan-LilyGO},
+           familyi={X\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{354fd5e27324b921797332e98c555d41}
+      \strng{fullhash}{354fd5e27324b921797332e98c555d41}
+      \strng{bibnamehash}{354fd5e27324b921797332e98c555d41}
+      \strng{authorbibnamehash}{354fd5e27324b921797332e98c555d41}
+      \strng{authornamehash}{354fd5e27324b921797332e98c555d41}
+      \strng{authorfullhash}{354fd5e27324b921797332e98c555d41}
+      \field{labelalpha}{Xin23}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LilyGO T-A76XX Series (ESP32 + Cellular) Documentation}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://github.com/Xinyuan-LilyGO/LilyGO-T-A76XX
+      \endverb
+      \verb{url}
+      \verb https://github.com/Xinyuan-LilyGO/LilyGO-T-A76XX
+      \endverb
+      \warn{\item online entry 'lilygo_t76xx' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{youtube_hackcar}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=8dd1bae8da2e2408210d0656fbe6b7d1}{%
+           family={YouTube},
+           familyi={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{fullhash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{bibnamehash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{editorbibnamehash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{editornamehash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{editorfullhash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \field{extraname}{1}
+      \field{labelalpha}{You21}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Hack Your Car}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=cAAzXM5vsi0
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=cAAzXM5vsi0
+      \endverb
+      \warn{\item online entry 'youtube_hackcar' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{youtube_canreality}{online}{}
+      \name{editor}{1}{}{%
+        {{hash=8dd1bae8da2e2408210d0656fbe6b7d1}{%
+           family={YouTube},
+           familyi={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{fullhash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{bibnamehash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{editorbibnamehash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{editornamehash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{editorfullhash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \field{extraname}{2}
+      \field{labelalpha}{You22}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{The Reality of CAN Buses}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=YbF3idCk4EQ
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=YbF3idCk4EQ
+      \endverb
+      \warn{\item online entry 'youtube_canreality' (docum-tfe.bib): Invalid format 'juny 2025' of date field 'urldate' - ignoring}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

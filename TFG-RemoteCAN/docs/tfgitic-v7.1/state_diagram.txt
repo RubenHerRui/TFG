@@ -1,0 +1,63 @@
+stateDiagram-v2
+    [*] --> START_MQTT_TX: OK_FLAG
+
+        state "Connexió MQTT" as mqtt_states {
+        state "Gestio connexió MQTT" as mqtt_conncection {
+        START_MQTT_TX --> START_MQTT_RX: AT_MQTT_START()
+        START_MQTT_RX --> DISCONNECT_TX: ERROR_FLAG
+        START_MQTT_RX --> ACCQ_TX: OK_FLAG
+        DISCONNECT_TX --> DISCONNECT_RX: AT_MQTT_DISCONNECT()
+        DISCONNECT_RX --> RELEASE_TX: OK/ERROR
+        RELEASE_TX --> RELEASE_RX: AT_MQTT_RELEASE()
+        RELEASE_RX --> STOP_TX: OK/ERROR
+        STOP_TX --> STOP_RX: AT_MQTT_STOP()
+        STOP_RX --> START_MQTT_TX: OK/ERROR
+        ACCQ_RX --> DISCONNECT_TX: ERROR_FLAG
+        }
+
+        state "Client MQTT" as mqtt_client {
+            ACCQ_TX --> ACCQ_RX: AT_MQTT_ACCQ()
+            ACCQ_RX --> CONNECT_TX: OK_FLAG
+            
+
+            CONNECT_TX --> CONNECT_RX: AT_MQTT_CONNECT()
+            CONNECT_RX --> CONNECT_TX: ERROR_FLAG
+            CONNECT_RX --> SUBSCRIBE_TX: OK_FLAG
+        }
+
+        state "Subscripció MQTT" as mqtt_subs {
+            SUBSCRIBE_TX --> SUBSCRIBE_RX: AT_MQTT_SUBSCRIBE()
+            SUBSCRIBE_RX --> SUBSCRIBE_TX: ERROR_FLAG
+            SUBSCRIBE_RX --> SUBSCRIBE_TX_2: INPUT_FLAG
+
+            SUBSCRIBE_TX_2 --> SUBSCRIBE_RX_2: AT_MQTT_SUBSCRIBE_2()
+            SUBSCRIBE_RX_2 --> SUBSCRIBE_TX: ERROR_FLAG
+            SUBSCRIBE_RX_2 --> TXENABLED: OK_FLAG
+        }
+
+        state "Publicació MQTT" as mqtt_pub {
+            TXENABLED --> TOPIC_TX: write_MQTT()
+
+            TOPIC_TX --> TOPIC_RX: AT_MQTT_TOPIC()
+            TOPIC_RX --> TOPIC_TX: ERROR_FLAG
+            TOPIC_RX --> TOPIC_TX_2: INPUT_FLAG
+
+            TOPIC_TX_2 --> TOPIC_RX_2: AT_MQTT_TOPIC_2()
+            TOPIC_RX_2 --> TOPIC_TX: ERROR_FLAG
+            TOPIC_RX_2 --> PAYLOAD_TX: OK_FLAG
+
+            PAYLOAD_TX --> PAYLOAD_RX: AT_MQTT_PAYLOAD()
+            PAYLOAD_RX --> TOPIC_TX: ERROR_FLAG
+            PAYLOAD_RX --> PAYLOAD_TX_2: INPUT_FLAG
+
+            PAYLOAD_TX_2 --> PAYLOAD_RX_2: AT_MQTT_PAYLOAD_2()
+            PAYLOAD_RX_2 --> TOPIC_TX: ERROR_FLAG
+            PAYLOAD_RX_2 --> PUBLISH_TX: OK_FLAG
+
+            PUBLISH_TX --> PUBLISH_RX: AT_PUBLISH()
+            PUBLISH_RX --> PUBLISH_TX: ERROR_FLAG
+            PUBLISH_RX --> TXENABLED: OK_FLAG
+        }
+    }
+
+

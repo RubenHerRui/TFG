@@ -1,9 +1,0 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'docum-tfe.blg'
-[149] biber:340> INFO - === jue abr 17, 2025, 16:54:23
-[176] Biber.pm:419> INFO - Reading 'docum-tfe.bcf'
-[291] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[314] bbl.pm:660> INFO - Writing 'docum-tfe.bbl' with encoding 'UTF-8'
-[314] bbl.pm:763> INFO - Output to docum-tfe.bbl
-[314] Biber.pm:131> WARN - The file 'docum-tfe.bcf' does not contain any citations!
-[315] Biber.pm:133> INFO - WARNINGS: 1

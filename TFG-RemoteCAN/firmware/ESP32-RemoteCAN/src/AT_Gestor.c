@@ -6,24 +6,22 @@
 #include "freertos/FreeRTOS.h"
 #include "AT_Gestor.h"
 
-#define UART_NUM UART_NUM_1 //UART utilzado para comunicarse con 
-#define TX_PIN 11 //Pin TX del UART
-#define RX_PIN 10 //Pin RX del UART
-#define PWR_PIN 18 //Pin que enciende el modulo SIM
-#define UART_BUF_SIZE_RX 1024 //Tamaño del buffer para almazenar mesnajes Rx
-#define UART_BUF_SIZE_TX 256 //Tamaño del buffer para almazenar mesnajes Tx
-#define TAG "AT_GESTOR" //Nombre del modulo
-#define DEBUG false //Habilita los prints para el debug
+#define UART_NUM UART_NUM_1             //UART utilzat 
+#define TX_PIN 11                       //Pin TX del UART
+#define RX_PIN 10                       //Pin RX del UART
+#define PWR_PIN 18                      //Pin que enciende el mòdul SIM
+#define UART_BUF_SIZE_RX 1024           //Tamany del buffer Rx
+#define UART_BUF_SIZE_TX 256            //Tamany del buffer Tx
+#define TAG "AT_GESTOR"                 //Nombre del mòdoul
+#define DEBUG false                     //Mode ddebug
 
-static char command[UART_BUF_SIZE_TX]; //Buffer generico para formar los comandos AT
+static char command[UART_BUF_SIZE_TX];  //Buffer generic per formar los comandes AT
 
 void init_sim(void){
-	//Enciende el modulo sim
 	gpio_set_direction(PWR_PIN, GPIO_MODE_OUTPUT);
     gpio_set_level(PWR_PIN, 1);
     vTaskDelay(pdMS_TO_TICKS(5000));
 
-	//Configura la comunicacion UART con el mdoulo sim
 	uart_config_t uart_config = {
         .baud_rate = 115200,
         .data_bits = UART_DATA_8_BITS,
@@ -37,7 +35,6 @@ void init_sim(void){
 }
 
 void write_AT(const char *command) {
-    //Envia un comando AT por el UART
     uart_write_bytes(UART_NUM, command, strlen(command));
     if (DEBUG){
         ESP_LOGI(TAG, "Enviado: %s", command);
@@ -45,7 +42,6 @@ void write_AT(const char *command) {
 }
 
 void read_AT(char* rx_buffer) {
-    //Mira si hay algun mensaje en el buffer de recepcion y lo copia a la variable que nos han pasado
     int len = uart_read_bytes(UART_NUM, rx_buffer, UART_BUF_SIZE_RX, pdMS_TO_TICKS(100));
     if (DEBUG && len > 0) {
         rx_buffer[len] = '\0';
@@ -53,7 +49,6 @@ void read_AT(char* rx_buffer) {
     }
 }
 
-//Comandos AT a utilizar
 void AT(void) {
     write_AT("AT\r\n");
 }
@@ -169,3 +164,21 @@ void AT_PUBLISH(int client_num, int qos, int retain) {
     sprintf(command, "AT+CMQTTPUB=%d,%d,%d\r\n", client_num, qos, retain);
     write_AT(command);
 }
+
+void AT_GPS_ON(int gnss_power_status) {
+    sprintf(command, "AT+CGNSSPWR=%d\r\n", gnss_power_status);
+    write_AT(command);
+}
+
+void AT_GPS_WARM(void) {
+    write_AT("AT+CGPSWARM\r\n");
+}
+
+void AT_GPS_COLD(void) {
+    write_AT("AT+CGPSCOLD\r\n");
+}
+
+void AT_GPS_DATA(void) {
+    write_AT("AT+CGNSSINFO\r\n");
+}
+

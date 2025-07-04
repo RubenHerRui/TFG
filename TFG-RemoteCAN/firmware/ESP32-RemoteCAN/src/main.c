@@ -7,9 +7,9 @@
 #include "CAN_Gestor.h"
 #include "Sniffer_Gestor.h"
 
-#define SNIFFING false
-#define MQTT_BUF_SIZE 256  // Tamaño del buffer mqtt
-#define DEBUG true
+#define SNIFFING false      // Mode sniffing
+#define MQTT_BUF_SIZE 256   // Tamany del buffer mqtt
+#define DEBUG true          // Mode debug
 
 void write_CAN_speeds(void){
     write_CAN_speed();
@@ -25,7 +25,7 @@ void read_CAN_processor(void){
             print_sniffing(message);
         }
         if (message.identifier == 0x7E8 && message.data[1] == 0x41 && message.data[2] == 0x0D) {
-                uint8_t speed = message.data[3];  // Extraer la velocidad en km/h
+                uint8_t speed = message.data[3];  
                 char buffer[8];
                 sprintf(buffer,"%d",speed);
                 if (DEBUG){
@@ -34,7 +34,7 @@ void read_CAN_processor(void){
                 write_MQTT("car/speed", buffer);
         }
         else if (message.identifier == 0x7E8 && message.data[1] == 0x41 && message.data[2] == 0x0C) {
-                uint16_t speed = (256*message.data[3]+message.data[4])/4;  // Extraer la velocidad en rpm
+                uint16_t speed = (256*message.data[3]+message.data[4])/4;  
                 char buffer[8];
                 sprintf(buffer,"%d",speed);
                 if (DEBUG){
@@ -54,7 +54,6 @@ void CAN_task(void *pvParameters){
 }
 
 void read_MQTT_processor(void){
-    //Comprueba si se ha recibido un mensaje y lo gestiona en caso afirmativo
     if (read_MQTT_available()){
         char local_buffer_mqtt[MQTT_BUF_SIZE];
         read_MQTT(local_buffer_mqtt);
@@ -64,12 +63,24 @@ void read_MQTT_processor(void){
     }
 }
 void MQTT_task(void *pvParameters) {
-    //Proceso que mantiene activo el modulo de gestion de mqtt y comprueba si se ha recibido un mensaje
     while (true) {
         sim_state_machine();
         read_MQTT_processor();
     }
 }
+
+/*
+void app_main(void) {
+    vTaskDelay(pdMS_TO_TICKS(10000));
+    //xTaskCreate(CAN_task, "CAN_task", 4096, NULL, 5, NULL);
+    xTaskCreate(MQTT_task, "MQTT_task", 4096, NULL, 5, NULL);
+    while (1) {
+        write_MQTT("car/speed", "10");
+        vTaskDelay(pdMS_TO_TICKS(5000));
+    }
+}
+*/
+
 
 void app_main(void) {
     vTaskDelay(pdMS_TO_TICKS(10000));
@@ -77,16 +88,10 @@ void app_main(void) {
     if (!SNIFFING){
         xTaskCreate(MQTT_task, "MQTT_task", 4096, NULL, 5, NULL);
     }
-    if (DEBUG){
-        ESP_LOGI("Main","Puedes enchufar");
-    }
+    ESP_LOGI("Main","Todo listo");
     while (1) {
         if (!SNIFFING){
             write_CAN_speeds();
-            //write_MQTT("car/speed", "10");
-            //vTaskDelay(pdMS_TO_TICKS(5000));
         }
     }
 }
-
-

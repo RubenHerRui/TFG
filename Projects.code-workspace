@@ -21,7 +21,8 @@
 			"stdbool.h": "c",
 			"sniffer_gestor.h": "c",
 			"freertos.h": "c",
-			"mqtt_gestor.h": "c"
+			"mqtt_gestor.h": "c",
+			"task.h": "c"
 		}
 	}
 }

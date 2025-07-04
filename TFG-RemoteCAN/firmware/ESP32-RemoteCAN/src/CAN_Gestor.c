@@ -9,19 +9,13 @@
 #define CAN_RX_PIN GPIO_NUM_15
 #define DEBUG true
 
-// Definir el nombre del logger para ESP_LOG
 static const char *TAG = "CAN";
 
 void init_CAN(void) {
-    // Configuración general
     twai_general_config_t g_config = TWAI_GENERAL_CONFIG_DEFAULT(CAN_TX_PIN, CAN_RX_PIN, TWAI_MODE_NORMAL);
-    // Configuración de la velocidad (500 kbps)
     twai_timing_config_t t_config = TWAI_TIMING_CONFIG_500KBITS();
-    // Configuración de filtros (aceptar todo)
     twai_filter_config_t f_config = TWAI_FILTER_CONFIG_ACCEPT_ALL();
-    // Inicializar el driver de TWAI
     twai_driver_install(&g_config, &t_config, &f_config);
-    // Iniciar TWAI
     twai_start();
 }
 
@@ -33,17 +27,15 @@ void stop_CAN(void) {
 void write_CAN(int ID, int mode, int rtr, int payload_length, uint8_t* payload) {
     twai_message_t message;
     message.identifier = ID;
-    message.extd = mode;  // Modo estándar (11 bits) o extendido (29 bits)
-    message.rtr = rtr;    // Si es solicitud remota (RTR) o no
-    message.data_length_code = payload_length;  // Longitud del payload
+    message.extd = mode; 
+    message.rtr = rtr;    
+    message.data_length_code = payload_length;  
     
-    // Copiar los datos del payload en la estructura
     for (int i = 0; i < payload_length; i++) {
         message.data[i] = payload[i];
     }
 
-    // Intentar transmitir el mensaje
-    esp_err_t err = twai_transmit(&message, pdMS_TO_TICKS(1000));  // 1000 ms de timeout
+    esp_err_t err = twai_transmit(&message, pdMS_TO_TICKS(1000));  
     if (err == ESP_OK) {
         if (DEBUG){
             ESP_LOGI(TAG, "Mensaje enviado.");

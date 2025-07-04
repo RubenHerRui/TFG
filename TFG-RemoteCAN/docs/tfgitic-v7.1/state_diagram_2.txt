@@ -1,0 +1,45 @@
+stateDiagram-v2
+    [*] --> POWERON
+    POWERON --> START_TX: init_sim()
+    
+    state "Inicialització de la SIM i verificació del senyal" as sim_states {
+        START_TX --> START_RX: AT()
+        START_RX --> START_TX: ERROR_FLAG
+        START_RX --> CPIN_TX: OK_FLAG
+
+        CPIN_TX --> CPIN_RX: AT_CPIN_D() + AT_CPIN_Q()
+        CPIN_RX --> CPIN_TX: ERROR_FLAG
+        CPIN_RX --> CSQ_TX: OK_FLAG
+
+        CSQ_TX --> CSQ_RX: AT_CSQ()
+        CSQ_RX --> CSQ_TX: ERROR_FLAG
+        CSQ_RX --> CREG_Q_TX: OK_FLAG
+
+        CREG_Q_TX --> CREG_Q_RX: AT_CREG_Q()
+        CREG_Q_RX --> CREG_Q_TX: ERROR_FLAG
+        CREG_Q_RX --> CGREG_Q_TX: OK_FLAG
+
+        CGREG_Q_TX --> CGREG_Q_RX: AT_CGREG_Q()
+        CGREG_Q_RX --> CGREG_Q_TX: ERROR_FLAG
+        CGREG_Q_RX --> CPSI_Q_TX: OK_FLAG
+
+        CPSI_Q_TX --> CPSI_Q_RX: AT_CPSI_Q()
+        CPSI_Q_RX --> CPSI_Q_TX: ERROR_FLAG
+        CPSI_Q_RX --> CGDCONT_D_TX: OK_FLAG
+    }
+
+    state "Connexió PDP" as pdp_states {
+        CGDCONT_D_TX --> CGDCONT_D_RX: AT_CGDCONT_D()
+        CGDCONT_D_RX --> CGDCONT_D_TX: ERROR_FLAG
+        CGDCONT_D_RX --> CGACT_D_TX: OK_FLAG
+
+        CGACT_D_TX --> CGACT_D_RX: AT_CGACT_D()
+        CGACT_D_RX --> CGACT_D_TX: ERROR_FLAG
+        CGACT_D_RX --> CGACT_Q_TX: OK_FLAG
+
+        CGACT_Q_TX --> CGACT_Q_RX: AT_CGACT_Q()
+        CGACT_Q_RX --> CGACT_Q_TX: ERROR_FLAG
+        CGACT_Q_RX --> START_MQTT_TX: OK_FLAG
+    }
+
+
